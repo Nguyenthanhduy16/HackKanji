@@ -1,0 +1,1257 @@
+{
+ "groups": [
+  {
+   "id": 1,
+   "title": "は・が",
+   "summary": "Hai trợ từ gặp nhiều nhất: một cái nêu chủ đề, một cái chỉ chủ thể.",
+   "tip": "は trả lời câu hỏi “nói về cái gì?”, が trả lời “ai / cái gì?”. Thông tin mới hoặc vừa được hỏi thường đi với が; điều cả hai bên đã biết thường đi với は.",
+   "particles": [
+    {
+     "p": "は",
+     "gist": "Chủ đề, đối chiếu",
+     "uses": [
+      {
+       "meaning": "Nêu chủ đề của câu",
+       "jp": "私{わたし}【は】ベトナム人{じん}です。",
+       "vi": "Tôi là người Việt Nam."
+      },
+      {
+       "meaning": "Đối chiếu hai sự vật",
+       "jp": "肉{にく}【は】食{た}べますが、魚{さかな}【は】食{た}べません。",
+       "vi": "Thịt thì tôi ăn, còn cá thì không."
+      },
+      {
+       "meaning": "Gắn sau trợ từ khác để làm chủ đề (には, では…)",
+       "jp": "日本{にほん}に【は】四季{しき}があります。",
+       "vi": "Ở Nhật có bốn mùa."
+      }
+     ]
+    },
+    {
+     "p": "が",
+     "gist": "Chủ thể, đối tượng của cảm xúc/khả năng",
+     "uses": [
+      {
+       "meaning": "Chủ ngữ khi hỏi hoặc trả lời “ai, cái gì”",
+       "jp": "だれ【が】窓{まど}を開{あ}けましたか。",
+       "vi": "Ai đã mở cửa sổ?"
+      },
+      {
+       "meaning": "Đối tượng của 好き・上手・わかる・ほしい…",
+       "jp": "私{わたし}は猫{ねこ}【が】好{す}きです。",
+       "vi": "Tôi thích mèo."
+      },
+      {
+       "meaning": "Chủ ngữ trong mệnh đề bổ nghĩa",
+       "jp": "母{はは}【が】作{つく}った料理{りょうり}はおいしいです。",
+       "vi": "Món mẹ nấu thì ngon."
+      },
+      {
+       "meaning": "Miêu tả hiện tượng đang thấy",
+       "jp": "雨{あめ}【が】降{ふ}っています。",
+       "vi": "Trời đang mưa."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "も・か",
+   "summary": "も thêm vào và nhấn mạnh; か tạo câu hỏi và nêu lựa chọn.",
+   "tip": "Từ để hỏi + も + phủ định nghĩa là “không… gì cả”; từ để hỏi + か nghĩa là “… nào đó”.",
+   "particles": [
+    {
+     "p": "も",
+     "gist": "Cũng, tới tận",
+     "uses": [
+      {
+       "meaning": "Cũng (thay cho は・が・を)",
+       "jp": "私{わたし}【も】行{い}きます。",
+       "vi": "Tôi cũng đi."
+      },
+      {
+       "meaning": "Nhấn mạnh số lượng lớn",
+       "jp": "三時間{さんじかん}【も】待{ま}ちました。",
+       "vi": "Tôi đã đợi tận ba tiếng."
+      },
+      {
+       "meaning": "Từ để hỏi + も + phủ định",
+       "jp": "何{なに}【も】食{た}べませんでした。",
+       "vi": "Tôi chẳng ăn gì cả."
+      }
+     ]
+    },
+    {
+     "p": "か",
+     "gist": "Hỏi, hoặc",
+     "uses": [
+      {
+       "meaning": "Cuối câu để hỏi",
+       "jp": "これは何{なん}です【か】。",
+       "vi": "Cái này là gì?"
+      },
+      {
+       "meaning": "Hoặc",
+       "jp": "お茶{ちゃ}【か】コーヒーを飲{の}みます。",
+       "vi": "Tôi uống trà hoặc cà phê."
+      },
+      {
+       "meaning": "Từ để hỏi + か: … nào đó",
+       "jp": "どこ【か】で会{あ}ったことがあります。",
+       "vi": "Tôi đã từng gặp ở đâu đó rồi."
+      },
+      {
+       "meaning": "Lồng câu hỏi vào câu: 〜かどうか",
+       "jp": "彼{かれ}が来{く}る【か】どう【か】わかりません。",
+       "vi": "Tôi không biết anh ấy có đến hay không."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "で・に",
+   "summary": "Hai trợ từ chỉ nơi chốn dễ nhầm nhất, mỗi cái còn nhiều cách dùng riêng.",
+   "tip": "で là nơi hành động diễn ra; に là nơi một vật đang ở, hoặc điểm mà hành động hướng tới.",
+   "particles": [
+    {
+     "p": "で",
+     "gist": "Nơi hành động, phương tiện, nguyên nhân",
+     "uses": [
+      {
+       "meaning": "Nơi diễn ra hành động",
+       "jp": "図書館{としょかん}【で】勉強{べんきょう}します。",
+       "vi": "Tôi học ở thư viện."
+      },
+      {
+       "meaning": "Phương tiện, công cụ, ngôn ngữ",
+       "jp": "バス【で】学校{がっこう}へ行{い}きます。",
+       "vi": "Tôi đi học bằng xe buýt."
+      },
+      {
+       "meaning": "Nguyên nhân",
+       "jp": "風邪{かぜ}【で】学校{がっこう}を休{やす}みました。",
+       "vi": "Tôi nghỉ học vì bị cảm."
+      },
+      {
+       "meaning": "Tổng cộng, phạm vi",
+       "jp": "全部{ぜんぶ}【で】千円{せんえん}です。",
+       "vi": "Tất cả là một nghìn yên."
+      }
+     ]
+    },
+    {
+     "p": "に",
+     "gist": "Thời điểm, nơi tồn tại, đích, đối tượng",
+     "uses": [
+      {
+       "meaning": "Thời điểm cụ thể",
+       "jp": "七時{しちじ}【に】起{お}きます。",
+       "vi": "Tôi dậy lúc bảy giờ."
+      },
+      {
+       "meaning": "Nơi vật/người tồn tại",
+       "jp": "机{つくえ}の上{うえ}【に】本{ほん}があります。",
+       "vi": "Trên bàn có quyển sách."
+      },
+      {
+       "meaning": "Người nhận hành động",
+       "jp": "友達{ともだち}【に】手紙{てがみ}を書{か}きます。",
+       "vi": "Tôi viết thư cho bạn."
+      },
+      {
+       "meaning": "Mục đích của việc đi/đến (Vます bỏ ます + に)",
+       "jp": "映画{えいが}を見{み}【に】行{い}きます。",
+       "vi": "Tôi đi xem phim."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "と・を",
+   "summary": "と nối và trích dẫn; を đánh dấu tân ngữ và đường đi.",
+   "particles": [
+    {
+     "p": "と",
+     "gist": "Và, cùng với, trích dẫn, hễ",
+     "uses": [
+      {
+       "meaning": "Và (liệt kê đầy đủ)",
+       "jp": "パン【と】牛乳{ぎゅうにゅう}を買{か}いました。",
+       "vi": "Tôi đã mua bánh mì và sữa."
+      },
+      {
+       "meaning": "Cùng với ai",
+       "jp": "友達{ともだち}【と】旅行{りょこう}しました。",
+       "vi": "Tôi đã đi du lịch cùng bạn."
+      },
+      {
+       "meaning": "Trích dẫn lời nói, suy nghĩ",
+       "jp": "「ありがとう」【と】言{い}いました。",
+       "vi": "Đã nói “cảm ơn”."
+      },
+      {
+       "meaning": "Hễ… thì (kết quả tất yếu)",
+       "jp": "春{はる}になる【と】、桜{さくら}が咲{さ}きます。",
+       "vi": "Cứ đến xuân là hoa anh đào nở."
+      }
+     ]
+    },
+    {
+     "p": "を",
+     "gist": "Tân ngữ, nơi đi qua, nơi rời khỏi",
+     "uses": [
+      {
+       "meaning": "Tân ngữ của động từ",
+       "jp": "毎朝{まいあさ}パン【を】食{た}べます。",
+       "vi": "Sáng nào tôi cũng ăn bánh mì."
+      },
+      {
+       "meaning": "Nơi đi qua",
+       "jp": "公園{こうえん}【を】散歩{さんぽ}します。",
+       "vi": "Tôi đi dạo trong công viên."
+      },
+      {
+       "meaning": "Điểm rời khỏi",
+       "jp": "七時{しちじ}に家{いえ}【を】出{で}ます。",
+       "vi": "Tôi ra khỏi nhà lúc bảy giờ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "から・にて・とも",
+   "summary": "Điểm xuất phát và lý do, cách nói trang trọng của で, và “cả… đều”.",
+   "particles": [
+    {
+     "p": "から",
+     "gist": "Từ, vì, làm từ",
+     "uses": [
+      {
+       "meaning": "Từ (thời gian, nơi chốn)",
+       "jp": "九時{くじ}【から】五時{ごじ}まで働{はたら}きます。",
+       "vi": "Tôi làm việc từ chín giờ đến năm giờ."
+      },
+      {
+       "meaning": "Vì (lý do mang tính chủ quan)",
+       "jp": "時間{じかん}がない【から】、タクシーで行{い}きましょう。",
+       "vi": "Không có thời gian nên đi taxi thôi."
+      },
+      {
+       "meaning": "Nguyên liệu đã biến đổi",
+       "jp": "日本酒{にほんしゅ}は米{こめ}【から】作{つく}ります。",
+       "vi": "Rượu sake được làm từ gạo."
+      }
+     ]
+    },
+    {
+     "p": "にて",
+     "gist": "で trong văn bản trang trọng",
+     "uses": [
+      {
+       "meaning": "Địa điểm trong thông báo",
+       "jp": "式{しき}は本館{ほんかん}ホール【にて】行{おこな}います。",
+       "vi": "Buổi lễ được tổ chức tại hội trường tòa nhà chính."
+      },
+      {
+       "meaning": "Phương thức",
+       "jp": "結果{けっか}はメール【にて】お知{し}らせします。",
+       "vi": "Kết quả sẽ được thông báo qua email."
+      }
+     ]
+    },
+    {
+     "p": "とも",
+     "gist": "Cả… đều, ít nhất, tất nhiên",
+     "uses": [
+      {
+       "meaning": "Cả… đều (sau từ chỉ số lượng)",
+       "jp": "二人{ふたり}【とも】医者{いしゃ}です。",
+       "vi": "Cả hai người đều là bác sĩ."
+      },
+      {
+       "meaning": "〜くとも: ít nhất, muộn nhất…",
+       "jp": "少{すく}なく【とも】一日{いちにち}一時間{いちじかん}は勉強{べんきょう}したい。",
+       "vi": "Tôi muốn học ít nhất một tiếng mỗi ngày."
+      },
+      {
+       "meaning": "Cuối câu: tất nhiên rồi",
+       "jp": "「手伝{てつだ}ってくれる？」「いい【とも】。」",
+       "vi": "“Giúp mình nhé?” — “Được chứ!”"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "より・や",
+   "summary": "So sánh hơn và liệt kê không đầy đủ.",
+   "particles": [
+    {
+     "p": "より",
+     "gist": "Hơn, từ (trang trọng)",
+     "uses": [
+      {
+       "meaning": "So sánh: hơn",
+       "jp": "東京{とうきょう}は大阪{おおさか}【より】大{おお}きいです。",
+       "vi": "Tokyo lớn hơn Osaka."
+      },
+      {
+       "meaning": "Từ (= から, văn trang trọng)",
+       "jp": "会議{かいぎ}は午後{ごご}二時{にじ}【より】始{はじ}まります。",
+       "vi": "Cuộc họp bắt đầu từ hai giờ chiều."
+      },
+      {
+       "meaning": "〜よりほかない: không còn cách nào khác",
+       "jp": "待{ま}つ【より】ほかない。",
+       "vi": "Chỉ còn cách chờ."
+      }
+     ]
+    },
+    {
+     "p": "や",
+     "gist": "Và… (còn nữa)",
+     "uses": [
+      {
+       "meaning": "Liệt kê vài ví dụ tiêu biểu",
+       "jp": "机{つくえ}の上{うえ}に本{ほん}【や】ペンがあります。",
+       "vi": "Trên bàn có sách, bút…"
+      },
+      {
+       "meaning": "Đi cùng など",
+       "jp": "りんご【や】みかんなどを買{か}いました。",
+       "vi": "Tôi đã mua táo, quýt và vài thứ khác."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "て・ながら・し",
+   "summary": "Ba cách nối vế câu: theo trình tự, đồng thời, và liệt kê lý do.",
+   "particles": [
+    {
+     "p": "て",
+     "gist": "Nối hành động, cách thức, nguyên nhân",
+     "uses": [
+      {
+       "meaning": "Các hành động nối tiếp",
+       "jp": "朝{あさ}起{お}き【て】、顔{かお}を洗{あら}います。",
+       "vi": "Sáng dậy rồi rửa mặt."
+      },
+      {
+       "meaning": "Cách thức thực hiện",
+       "jp": "歩{ある}い【て】駅{えき}まで行{い}きます。",
+       "vi": "Tôi đi bộ đến ga."
+      },
+      {
+       "meaning": "Nguyên nhân dẫn đến cảm xúc",
+       "jp": "ニュースを聞{き}い【て】、びっくりしました。",
+       "vi": "Nghe tin mà giật mình."
+      }
+     ]
+    },
+    {
+     "p": "ながら",
+     "gist": "Vừa… vừa, tuy… nhưng",
+     "uses": [
+      {
+       "meaning": "Hai hành động đồng thời",
+       "jp": "音楽{おんがく}を聞{き}き【ながら】勉強{べんきょう}します。",
+       "vi": "Tôi vừa nghe nhạc vừa học."
+      },
+      {
+       "meaning": "Tuy… nhưng (văn viết)",
+       "jp": "知{し}ってい【ながら】、何{なに}も言{い}わなかった。",
+       "vi": "Dù biết nhưng không nói gì."
+      }
+     ]
+    },
+    {
+     "p": "し",
+     "gist": "Nào là… lại còn",
+     "uses": [
+      {
+       "meaning": "Liệt kê nhiều lý do",
+       "jp": "この店{みせ}は安{やす}い【し】、おいしい【し】、よく来{き}ます。",
+       "vi": "Quán này vừa rẻ vừa ngon nên tôi hay đến."
+      },
+      {
+       "meaning": "Nêu một lý do tiêu biểu",
+       "jp": "雨{あめ}も降{ふ}っている【し】、今日{きょう}は家{いえ}にいよう。",
+       "vi": "Trời lại đang mưa, hôm nay ở nhà thôi."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "として・ては",
+   "summary": "Tư cách, vai trò; và điều kiện dẫn đến kết quả không mong muốn.",
+   "particles": [
+    {
+     "p": "として",
+     "gist": "Với tư cách là",
+     "uses": [
+      {
+       "meaning": "Vai trò, tư cách",
+       "jp": "通訳{つうやく}【として】会議{かいぎ}に参加{さんか}しました。",
+       "vi": "Tôi tham gia cuộc họp với tư cách phiên dịch."
+      },
+      {
+       "meaning": "一〜として + phủ định: không một… nào",
+       "jp": "一人{ひとり}【として】反対{はんたい}しなかった。",
+       "vi": "Không một ai phản đối."
+      }
+     ]
+    },
+    {
+     "p": "ては",
+     "gist": "Nếu… thì (xấu), lặp lại",
+     "uses": [
+      {
+       "meaning": "Điều kiện dẫn đến kết quả xấu",
+       "jp": "そんなに食{た}べ【ては】、お腹{なか}を壊{こわ}しますよ。",
+       "vi": "Ăn nhiều thế thì đau bụng đấy."
+      },
+      {
+       "meaning": "Hành động lặp đi lặp lại",
+       "jp": "書{か}い【ては】消{け}し、書{か}い【ては】消{け}した。",
+       "vi": "Viết rồi xóa, viết rồi lại xóa."
+      },
+      {
+       "meaning": "Cấm: 〜てはいけない",
+       "jp": "ここで写真{しゃしん}を撮{と}っ【ては】いけません。",
+       "vi": "Không được chụp ảnh ở đây."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "title": "だけ・ずつ・しも",
+   "summary": "Giới hạn, chia đều, và cách phủ định một phần.",
+   "particles": [
+    {
+     "p": "だけ",
+     "gist": "Chỉ, hết mức",
+     "uses": [
+      {
+       "meaning": "Chỉ",
+       "jp": "日曜日{にちようび}【だけ】休{やす}みます。",
+       "vi": "Tôi chỉ nghỉ ngày Chủ nhật."
+      },
+      {
+       "meaning": "できるだけ: hết mức có thể",
+       "jp": "できる【だけ】早{はや}く来{き}てください。",
+       "vi": "Hãy đến sớm nhất có thể."
+      }
+     ]
+    },
+    {
+     "p": "ずつ",
+     "gist": "Mỗi, từng chút",
+     "uses": [
+      {
+       "meaning": "Chia đều cho mỗi đơn vị",
+       "jp": "一人{ひとり}二{ふた}つ【ずつ】取{と}ってください。",
+       "vi": "Mỗi người lấy hai cái."
+      },
+      {
+       "meaning": "Từng chút một",
+       "jp": "少{すこ}し【ずつ】日本語{にほんご}が上手{じょうず}になりました。",
+       "vi": "Tiếng Nhật của tôi tiến bộ dần dần."
+      }
+     ]
+    },
+    {
+     "p": "しも",
+     "gist": "Không hẳn, ai cũng",
+     "uses": [
+      {
+       "meaning": "必ずしも〜ない: không nhất thiết",
+       "jp": "高{たか}い物{もの}が必{かなら}ず【しも】いい物{もの}とは限{かぎ}らない。",
+       "vi": "Đồ đắt chưa chắc đã là đồ tốt."
+      },
+      {
+       "meaning": "誰しも: bất kỳ ai",
+       "jp": "誰{だれ}【しも】失敗{しっぱい}はある。",
+       "vi": "Ai cũng có lúc thất bại."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "title": "ば・ても・けれども・ので",
+   "summary": "Điều kiện, nhượng bộ, đối lập và nguyên nhân.",
+   "tip": "ので nghe khách quan và lịch sự hơn から, hợp khi xin phép hoặc giải thích với người trên.",
+   "particles": [
+    {
+     "p": "ば",
+     "gist": "Nếu",
+     "uses": [
+      {
+       "meaning": "Điều kiện",
+       "jp": "安{やす}けれ【ば】買{か}います。",
+       "vi": "Nếu rẻ thì tôi mua."
+      },
+      {
+       "meaning": "〜ば〜ほど: càng… càng",
+       "jp": "練習{れんしゅう}すれ【ば】するほど上手{じょうず}になる。",
+       "vi": "Càng luyện càng giỏi."
+      }
+     ]
+    },
+    {
+     "p": "ても",
+     "gist": "Dù… cũng",
+     "uses": [
+      {
+       "meaning": "Nhượng bộ",
+       "jp": "雨{あめ}が降{ふ}っ【ても】、試合{しあい}はあります。",
+       "vi": "Dù mưa thì trận đấu vẫn diễn ra."
+      },
+      {
+       "meaning": "Từ để hỏi + ても",
+       "jp": "何度{なんど}聞{き}い【ても】わかりません。",
+       "vi": "Nghe bao nhiêu lần cũng không hiểu."
+      }
+     ]
+    },
+    {
+     "p": "けれども",
+     "gist": "Nhưng",
+     "uses": [
+      {
+       "meaning": "Đối lập hai vế",
+       "jp": "高{たか}いです【けれども】、とても便利{べんり}です。",
+       "vi": "Đắt nhưng rất tiện."
+      },
+      {
+       "meaning": "Mở lời nhẹ nhàng",
+       "jp": "すみません【けれども】、ちょっと手伝{てつだ}ってもらえますか。",
+       "vi": "Xin lỗi, bạn giúp tôi một chút được không?"
+      }
+     ]
+    },
+    {
+     "p": "ので",
+     "gist": "Vì (khách quan)",
+     "uses": [
+      {
+       "meaning": "Nêu nguyên nhân",
+       "jp": "熱{ねつ}がある【ので】、今日{きょう}は休{やす}みます。",
+       "vi": "Vì bị sốt nên hôm nay tôi nghỉ."
+      },
+      {
+       "meaning": "Xin phép lịch sự",
+       "jp": "用事{ようじ}がある【ので】、お先{さき}に失礼{しつれい}します。",
+       "vi": "Tôi có việc nên xin phép về trước."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "title": "とは・でも・とか・たら",
+   "summary": "Định nghĩa, gợi ý, liệt kê văn nói và điều kiện たら.",
+   "particles": [
+    {
+     "p": "とは",
+     "gist": "Là, không ngờ",
+     "uses": [
+      {
+       "meaning": "Định nghĩa một từ",
+       "jp": "「積読{つんどく}」【とは】、本{ほん}を買{か}っても読{よ}まずに積{つ}んでおくことです。",
+       "vi": "“Tsundoku” là mua sách về rồi chất đó mà không đọc."
+      },
+      {
+       "meaning": "Bất ngờ",
+       "jp": "彼{かれ}が優勝{ゆうしょう}する【とは】思{おも}わなかった。",
+       "vi": "Không ngờ anh ấy lại vô địch."
+      }
+     ]
+    },
+    {
+     "p": "でも",
+     "gist": "Chẳng hạn, ngay cả, bất kỳ",
+     "uses": [
+      {
+       "meaning": "Gợi ý nhẹ",
+       "jp": "お茶{ちゃ}【でも】飲{の}みませんか。",
+       "vi": "Uống trà hay gì đó nhé?"
+      },
+      {
+       "meaning": "Ngay cả",
+       "jp": "子供{こども}【でも】わかります。",
+       "vi": "Đến trẻ con cũng hiểu."
+      },
+      {
+       "meaning": "Từ để hỏi + でも: bất kỳ",
+       "jp": "いつ【でも】来{き}てください。",
+       "vi": "Lúc nào cũng được, cứ đến nhé."
+      }
+     ]
+    },
+    {
+     "p": "とか",
+     "gist": "Nào là, nghe nói",
+     "uses": [
+      {
+       "meaning": "Liệt kê (văn nói)",
+       "jp": "休{やす}みの日{ひ}は映画{えいが}【とか】買{か}い物{もの}【とか】に行{い}きます。",
+       "vi": "Ngày nghỉ tôi đi xem phim, đi mua sắm…"
+      },
+      {
+       "meaning": "Nghe đâu là",
+       "jp": "田中{たなか}さんは来月{らいげつ}結婚{けっこん}する【とか】。",
+       "vi": "Nghe đâu anh Tanaka tháng sau cưới."
+      }
+     ]
+    },
+    {
+     "p": "たら",
+     "gist": "Nếu, khi… thì",
+     "uses": [
+      {
+       "meaning": "Nếu",
+       "jp": "時間{じかん}があっ【たら】、遊{あそ}びに来{き}てください。",
+       "vi": "Nếu có thời gian thì đến chơi nhé."
+      },
+      {
+       "meaning": "Khi… thì phát hiện",
+       "jp": "家{いえ}に帰{かえ}っ【たら】、荷物{にもつ}が届{とど}いていた。",
+       "vi": "Về đến nhà thì thấy hàng đã tới."
+      },
+      {
+       "meaning": "〜たらどう: khuyên",
+       "jp": "先生{せんせい}に聞{き}い【たら】どうですか。",
+       "vi": "Hay là hỏi thầy xem sao?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "title": "しか・など・ほど・だって",
+   "summary": "Giới hạn với phủ định, liệt kê, mức độ, và “ngay cả” trong văn nói.",
+   "tip": "しか luôn đi với phủ định và mang cảm giác “ít quá”; だけ trung tính hơn.",
+   "particles": [
+    {
+     "p": "しか",
+     "gist": "Chỉ (+ phủ định)",
+     "uses": [
+      {
+       "meaning": "Chỉ có, mang ý thiếu",
+       "jp": "財布{さいふ}に百円{ひゃくえん}【しか】ありません。",
+       "vi": "Trong ví chỉ có một trăm yên."
+      }
+     ]
+    },
+    {
+     "p": "など",
+     "gist": "Vân vân, coi nhẹ",
+     "uses": [
+      {
+       "meaning": "Liệt kê",
+       "jp": "京都{きょうと}や奈良{なら}【など】に行{い}きました。",
+       "vi": "Tôi đã đi Kyoto, Nara…"
+      },
+      {
+       "meaning": "Khiêm tốn, phủ nhận mạnh",
+       "jp": "嘘{うそ}【など】言{い}っていません。",
+       "vi": "Tôi đâu có nói dối."
+      }
+     ]
+    },
+    {
+     "p": "ほど",
+     "gist": "Khoảng, không bằng, đến mức",
+     "uses": [
+      {
+       "meaning": "Khoảng",
+       "jp": "一時間{いちじかん}【ほど】待{ま}ちました。",
+       "vi": "Tôi đã đợi khoảng một tiếng."
+      },
+      {
+       "meaning": "Không… bằng (+ phủ định)",
+       "jp": "今年{ことし}の夏{なつ}は去年{きょねん}【ほど】暑{あつ}くない。",
+       "vi": "Hè năm nay không nóng bằng năm ngoái."
+      },
+      {
+       "meaning": "Đến mức",
+       "jp": "泣{な}きたい【ほど】疲{つか}れた。",
+       "vi": "Mệt đến mức muốn khóc."
+      }
+     ]
+    },
+    {
+     "p": "だって",
+     "gist": "Ngay cả, vì (văn nói)",
+     "uses": [
+      {
+       "meaning": "Ngay cả (= でも)",
+       "jp": "子供{こども}【だって】知{し}っているよ。",
+       "vi": "Đến trẻ con cũng biết."
+      },
+      {
+       "meaning": "Đầu câu: tại vì (biện minh)",
+       "jp": "【だって】、時間{じかん}がなかったんだもん。",
+       "vi": "Tại vì không có thời gian mà."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "title": "ところが・まで・ばかり",
+   "summary": "Kết quả trái ý, giới hạn điểm cuối, và “toàn là / vừa mới”.",
+   "particles": [
+    {
+     "p": "ところが",
+     "gist": "Thế nhưng",
+     "uses": [
+      {
+       "meaning": "Kết quả ngoài dự đoán",
+       "jp": "晴{は}れると思{おも}った。【ところが】、午後{ごご}から雨{あめ}になった。",
+       "vi": "Tưởng trời nắng. Thế nhưng từ chiều lại mưa."
+      }
+     ]
+    },
+    {
+     "p": "まで",
+     "gist": "Đến, thậm chí",
+     "uses": [
+      {
+       "meaning": "Đến (thời gian, nơi chốn)",
+       "jp": "駅{えき}【まで】歩{ある}きます。",
+       "vi": "Tôi đi bộ đến ga."
+      },
+      {
+       "meaning": "Thậm chí",
+       "jp": "先生{せんせい}【まで】遅刻{ちこく}した。",
+       "vi": "Đến cả thầy giáo cũng đi muộn."
+      },
+      {
+       "meaning": "までに: hạn chót",
+       "jp": "金曜日{きんようび}【まで】に出{だ}してください。",
+       "vi": "Hãy nộp trước thứ Sáu."
+      }
+     ]
+    },
+    {
+     "p": "ばかり",
+     "gist": "Toàn là, vừa mới",
+     "uses": [
+      {
+       "meaning": "Toàn là, chỉ toàn",
+       "jp": "弟{おとうと}はゲーム【ばかり】しています。",
+       "vi": "Em trai tôi suốt ngày chơi game."
+      },
+      {
+       "meaning": "Vた + ばかり: vừa mới",
+       "jp": "日本{にほん}に来{き}た【ばかり】です。",
+       "vi": "Tôi vừa mới sang Nhật."
+      },
+      {
+       "meaning": "Khoảng (văn viết)",
+       "jp": "十人{じゅうにん}【ばかり】集{あつ}まった。",
+       "vi": "Khoảng mười người đã tụ tập."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "title": "ところで・こそ・もので・やら・さえ",
+   "summary": "Chuyển chủ đề, nhấn mạnh, biện minh, liệt kê và “ngay cả”.",
+   "particles": [
+    {
+     "p": "ところで",
+     "gist": "Nhân tiện, dù có… cũng",
+     "uses": [
+      {
+       "meaning": "Đổi chủ đề",
+       "jp": "【ところで】、来週{らいしゅう}の予定{よてい}はどうですか。",
+       "vi": "Nhân tiện, lịch tuần sau thế nào?"
+      },
+      {
+       "meaning": "Vた + ところで: dù có… cũng không",
+       "jp": "今{いま}から急{いそ}いだ【ところで】、間{ま}に合{あ}わないだろう。",
+       "vi": "Giờ có vội cũng không kịp đâu."
+      }
+     ]
+    },
+    {
+     "p": "こそ",
+     "gist": "Chính là",
+     "uses": [
+      {
+       "meaning": "Nhấn mạnh",
+       "jp": "今年{ことし}【こそ】合格{ごうかく}したい。",
+       "vi": "Năm nay nhất định phải đỗ."
+      },
+      {
+       "meaning": "こちらこそ: chính tôi mới phải",
+       "jp": "「よろしくお願{ねが}いします。」「こちら【こそ】。」",
+       "vi": "“Mong được giúp đỡ.” — “Tôi mới phải nói vậy.”"
+      }
+     ]
+    },
+    {
+     "p": "もので",
+     "gist": "Vì (biện minh)",
+     "uses": [
+      {
+       "meaning": "Giải thích lý do khi xin lỗi",
+       "jp": "電車{でんしゃ}が遅{おく}れた【もので】、遅刻{ちこく}してしまいました。",
+       "vi": "Vì tàu trễ nên tôi đến muộn."
+      }
+     ]
+    },
+    {
+     "p": "やら",
+     "gist": "Nào là, không rõ",
+     "uses": [
+      {
+       "meaning": "Liệt kê: nào là… nào là",
+       "jp": "宿題{しゅくだい}【やら】バイト【やら】で忙{いそが}しい。",
+       "vi": "Nào bài tập nào việc làm thêm, bận lắm."
+      },
+      {
+       "meaning": "Từ để hỏi + やら: không rõ",
+       "jp": "何{なに}【やら】変{へん}な音{おと}がする。",
+       "vi": "Có tiếng gì đó lạ lắm."
+      }
+     ]
+    },
+    {
+     "p": "さえ",
+     "gist": "Ngay cả, chỉ cần",
+     "uses": [
+      {
+       "meaning": "Ngay cả",
+       "jp": "名前{なまえ}【さえ】書{か}けない。",
+       "vi": "Ngay cả tên cũng không viết được."
+      },
+      {
+       "meaning": "〜さえ〜ば: chỉ cần",
+       "jp": "時間{じかん}【さえ】あれば、行{い}けます。",
+       "vi": "Chỉ cần có thời gian là đi được."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "title": "よ・わ・もの・ね・な・ぞ・さ・こと・かな・け・かしら・い",
+   "summary": "Trợ từ cuối câu: thêm thái độ, cảm xúc và giọng điệu cho câu nói.",
+   "tip": "わ, かしら, こと mang sắc thái nữ tính; ぞ, い mang sắc thái nam tính và suồng sã. Dùng với người trên nên giữ ở よ, ね.",
+   "particles": [
+    {
+     "p": "よ",
+     "gist": "Báo cho người nghe",
+     "uses": [
+      {
+       "meaning": "Thông tin người nghe chưa biết",
+       "jp": "この店{みせ}、安{やす}い【よ】。",
+       "vi": "Quán này rẻ đấy."
+      }
+     ]
+    },
+    {
+     "p": "わ",
+     "gist": "Cảm xúc nhẹ",
+     "uses": [
+      {
+       "meaning": "Bày tỏ cảm xúc (giọng nữ)",
+       "jp": "きれいだ【わ】。",
+       "vi": "Đẹp quá."
+      }
+     ]
+    },
+    {
+     "p": "もの",
+     "gist": "Vì… mà",
+     "uses": [
+      {
+       "meaning": "Biện minh, giải thích",
+       "jp": "子供{こども}だ【もの】、しかたないよ。",
+       "vi": "Trẻ con mà, đành chịu thôi."
+      }
+     ]
+    },
+    {
+     "p": "ね／ねえ",
+     "gist": "Tìm đồng tình",
+     "uses": [
+      {
+       "meaning": "Mong người nghe đồng ý",
+       "jp": "いい天気{てんき}です【ね】。",
+       "vi": "Trời đẹp nhỉ."
+      },
+      {
+       "meaning": "Đầu câu: gọi sự chú ý",
+       "jp": "【ねえ】、ちょっと聞{き}いて。",
+       "vi": "Này, nghe mình nói chút."
+      }
+     ]
+    },
+    {
+     "p": "な／なあ",
+     "gist": "Cấm, cảm thán",
+     "uses": [
+      {
+       "meaning": "Vる + な: cấm",
+       "jp": "触{さわ}る【な】。",
+       "vi": "Đừng chạm vào."
+      },
+      {
+       "meaning": "Cảm thán, mong muốn",
+       "jp": "寿司{すし}が食{た}べたい【なあ】。",
+       "vi": "Thèm sushi quá."
+      }
+     ]
+    },
+    {
+     "p": "ぞ",
+     "gist": "Quả quyết (nam)",
+     "uses": [
+      {
+       "meaning": "Khẳng định mạnh, hô hào",
+       "jp": "行{い}く【ぞ】！",
+       "vi": "Đi nào!"
+      }
+     ]
+    },
+    {
+     "p": "さ",
+     "gist": "Nhẹ nhàng khẳng định",
+     "uses": [
+      {
+       "meaning": "Văn nói thân mật",
+       "jp": "大丈夫{だいじょうぶ}【さ】。",
+       "vi": "Ổn thôi mà."
+      }
+     ]
+    },
+    {
+     "p": "こと",
+     "gist": "Quy định, cảm thán",
+     "uses": [
+      {
+       "meaning": "Quy định, chỉ thị trong văn bản",
+       "jp": "廊下{ろうか}を走{はし}らない【こと】。",
+       "vi": "Không được chạy trên hành lang."
+      }
+     ]
+    },
+    {
+     "p": "かな",
+     "gist": "Tự hỏi",
+     "uses": [
+      {
+       "meaning": "Băn khoăn một mình",
+       "jp": "明日{あした}は晴{は}れる【かな】。",
+       "vi": "Không biết mai có nắng không nhỉ."
+      }
+     ]
+    },
+    {
+     "p": "け",
+     "gist": "Nhớ lại",
+     "uses": [
+      {
+       "meaning": "Hỏi lại điều mình quên",
+       "jp": "会議{かいぎ}は何時{なんじ}からだっ【け】。",
+       "vi": "Cuộc họp mấy giờ ấy nhỉ?"
+      }
+     ]
+    },
+    {
+     "p": "かしら",
+     "gist": "Tự hỏi (nữ)",
+     "uses": [
+      {
+       "meaning": "Băn khoăn, giọng nữ",
+       "jp": "彼{かれ}、来{く}る【かしら】。",
+       "vi": "Không biết anh ấy có đến không nhỉ."
+      }
+     ]
+    },
+    {
+     "p": "い",
+     "gist": "Hỏi thân mật (nam)",
+     "uses": [
+      {
+       "meaning": "Đi sau か・だ trong câu hỏi",
+       "jp": "元気{げんき}か【い】？",
+       "vi": "Khỏe không đấy?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "q": "毎朝{まいあさ}コーヒー＿飲{の}みます。",
+   "answer": "を",
+   "options": [
+    "を",
+    "が",
+    "に",
+    "で"
+   ],
+   "explain": "コーヒー là tân ngữ của 飲む nên dùng を."
+  },
+  {
+   "q": "図書館{としょかん}＿本{ほん}を読{よ}みます。",
+   "answer": "で",
+   "options": [
+    "で",
+    "に",
+    "を",
+    "へ"
+   ],
+   "explain": "Nơi diễn ra hành động 読む dùng で."
+  },
+  {
+   "q": "机{つくえ}の上{うえ}＿猫{ねこ}がいます。",
+   "answer": "に",
+   "options": [
+    "に",
+    "で",
+    "を",
+    "が"
+   ],
+   "explain": "Nơi tồn tại với いる・ある dùng に."
+  },
+  {
+   "q": "私{わたし}は犬{いぬ}＿好{す}きです。",
+   "answer": "が",
+   "options": [
+    "が",
+    "を",
+    "に",
+    "で"
+   ],
+   "explain": "Đối tượng của 好き dùng が."
+  },
+  {
+   "q": "兄{あに}は医者{いしゃ}です。姉{あね}＿医者{いしゃ}です。",
+   "answer": "も",
+   "options": [
+    "も",
+    "を",
+    "に",
+    "で"
+   ],
+   "explain": "Chị gái “cũng” là bác sĩ nên dùng も."
+  },
+  {
+   "q": "友達{ともだち}＿映画{えいが}を見{み}ました。",
+   "answer": "と",
+   "options": [
+    "と",
+    "を",
+    "へ",
+    "で"
+   ],
+   "explain": "Làm gì cùng ai dùng と."
+  },
+  {
+   "q": "九時{くじ}＿五時{ごじ}まで働{はたら}きます。",
+   "answer": "から",
+   "options": [
+    "から",
+    "まで",
+    "に",
+    "で"
+   ],
+   "explain": "〜から〜まで: từ… đến…"
+  },
+  {
+   "q": "電車{でんしゃ}＿会社{かいしゃ}へ行{い}きます。",
+   "answer": "で",
+   "options": [
+    "で",
+    "を",
+    "が",
+    "に"
+   ],
+   "explain": "Phương tiện đi lại dùng で."
+  },
+  {
+   "q": "財布{さいふ}に百円{ひゃくえん}＿ありません。",
+   "answer": "しか",
+   "options": [
+    "しか",
+    "だけ",
+    "まで",
+    "ほど"
+   ],
+   "explain": "Chỉ có, đi với phủ định ありません → しか."
+  },
+  {
+   "q": "東京{とうきょう}は京都{きょうと}＿人{ひと}が多{おお}いです。",
+   "answer": "より",
+   "options": [
+    "より",
+    "ほど",
+    "まで",
+    "から"
+   ],
+   "explain": "So sánh hơn dùng より. ほど chỉ đi với phủ định."
+  },
+  {
+   "q": "音楽{おんがく}を聞{き}き＿走{はし}ります。",
+   "answer": "ながら",
+   "options": [
+    "ながら",
+    "ても",
+    "たら",
+    "ば"
+   ],
+   "explain": "Vます bỏ ます + ながら: vừa… vừa. Các lựa chọn khác sai dạng chia."
+  },
+  {
+   "q": "一人{ひとり}三枚{さんまい}＿紙{かみ}を取{と}ってください。",
+   "answer": "ずつ",
+   "options": [
+    "ずつ",
+    "しか",
+    "まで",
+    "こそ"
+   ],
+   "explain": "Chia đều cho mỗi người dùng ずつ."
+  },
+  {
+   "q": "時間{じかん}＿あれば、もっと勉強{べんきょう}できるのに。",
+   "answer": "さえ",
+   "options": [
+    "さえ",
+    "しか",
+    "こそ",
+    "ずつ"
+   ],
+   "explain": "〜さえ〜ば: chỉ cần có… là."
+  },
+  {
+   "q": "今年{ことし}＿日本{にほん}へ行{い}きたい。",
+   "answer": "こそ",
+   "options": [
+    "こそ",
+    "さえ",
+    "しか",
+    "ずつ"
+   ],
+   "explain": "Nhấn mạnh “chính năm nay” dùng こそ."
+  },
+  {
+   "q": "横断歩道{おうだんほどう}＿渡{わた}ります。",
+   "answer": "を",
+   "options": [
+    "を",
+    "が",
+    "へ",
+    "と"
+   ],
+   "explain": "Nơi đi qua với 渡る dùng を."
+  },
+  {
+   "q": "子供{こども}＿わかる簡単{かんたん}な問題{もんだい}です。",
+   "answer": "でも",
+   "options": [
+    "でも",
+    "しか",
+    "こそ",
+    "ずつ"
+   ],
+   "explain": "“Đến trẻ con cũng hiểu” dùng でも."
+  },
+  {
+   "q": "熱{ねつ}がある＿、今日{きょう}は休{やす}みます。",
+   "answer": "ので",
+   "options": [
+    "ので",
+    "のに",
+    "ても",
+    "たら"
+   ],
+   "explain": "Nêu lý do lịch sự dùng ので."
+  },
+  {
+   "q": "会議{かいぎ}は何時{なんじ}からだっ＿。",
+   "answer": "け",
+   "options": [
+    "け",
+    "か",
+    "よ",
+    "ね"
+   ],
+   "explain": "だっけ: hỏi lại điều mình quên."
+  },
+  {
+   "q": "今年{ことし}の冬{ふゆ}は去年{きょねん}＿寒{さむ}くない。",
+   "answer": "ほど",
+   "options": [
+    "ほど",
+    "まで",
+    "だけ",
+    "しか"
+   ],
+   "explain": "〜ほど〜ない: không… bằng."
+  },
+  {
+   "q": "雨{あめ}＿降{ふ}っています。",
+   "answer": "が",
+   "options": [
+    "が",
+    "を",
+    "に",
+    "で"
+   ],
+   "explain": "Miêu tả hiện tượng đang thấy dùng が."
+  },
+  {
+   "q": "二人{ふたり}＿元気{げんき}です。",
+   "answer": "とも",
+   "options": [
+    "とも",
+    "しか",
+    "ずつ",
+    "こそ"
+   ],
+   "explain": "Cả hai đều… dùng とも."
+  },
+  {
+   "q": "日本{にほん}に来{き}た＿です。",
+   "answer": "ばかり",
+   "options": [
+    "ばかり",
+    "ほど",
+    "ずつ",
+    "さえ"
+   ],
+   "explain": "Vた + ばかり: vừa mới."
+  }
+ ]
+}

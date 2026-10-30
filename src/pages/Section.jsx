@@ -1,13 +1,14 @@
 import { LEVELS } from '../lib/data.js'
 
 // Khung trang cho Từ vựng / Ngữ pháp / JLPT, chờ nạp nội dung
-export default function Section({ title, subtitle, unit }) {
+export default function Section({ title, subtitle, unit, children }) {
   return (
     <div className="mx-auto max-w-5xl space-y-5">
       <div className="card p-6">
         <h1 className="text-2xl font-bold">{title}</h1>
         <p className="mt-1 text-slate-500">{subtitle}</p>
       </div>
+      {children}
       <div className="grid gap-4 sm:grid-cols-2">
         {LEVELS.map((l) => (
           <div key={l.n} className="card flex items-center gap-4 p-5">

@@ -23,6 +23,8 @@ npm run build    # xuất ra dist/
 | `hv` | âm Hán Việt |
 | `r` | số bộ thủ |
 
+`public/data/particles.json` chứa trang Trợ từ (`/bunpo/particles`): `groups` là 15 nhóm trợ từ, mỗi trợ từ có các cách dùng kèm câu ví dụ; `quiz` là câu hỏi điền trợ từ. Trong câu tiếng Nhật, `漢字{よみ}` là furigana, `【x】` là trợ từ được tô màu, `＿` là chỗ trống. Nội dung do HackKanji tự biên soạn.
+
 Có thể thêm trường mới (ví dụ chiết tự) rồi hiển thị trong `src/pages/KanjiDetail.jsx`.
 
 Nguồn: KANJIDIC2 (EDRDG, CC BY-SA 4.0), kanji-data (MIT), thứ tự nét KanjiVG (CC BY-SA 3.0, tải từ jsDelivr khi chạy).
