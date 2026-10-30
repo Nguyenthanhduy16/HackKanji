@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-slate-100 text-slate-800 antialiased; }
+
+@layer components {
+  .card { @apply bg-white rounded-2xl border border-slate-200 shadow-sm; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 font-medium transition; }
+  .btn-primary { @apply btn bg-brand-600 text-white hover:bg-brand-700; }
+  .btn-ghost { @apply btn bg-slate-100 text-slate-700 hover:bg-slate-200; }
+  .chip { @apply rounded-full px-3 py-1 text-sm font-medium border transition; }
+}
+
+/* KanjiVG stroke animation */
+.kvg path { fill: none; stroke: #1e293b; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+.kvg .ghost path { stroke: #e2e8f0; }
+.kvg text { font-size: 8px; fill: #ef4444; }
