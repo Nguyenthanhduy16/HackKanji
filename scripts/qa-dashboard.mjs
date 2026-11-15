@@ -1,0 +1,16 @@
+import {chromium} from '@playwright/test';
+import fs from 'node:fs/promises';
+const browser=await chromium.launch({executablePath:'/usr/bin/google-chrome',headless:true,args:['--no-sandbox']});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});
+const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://localhost:3000/vi/home',{waitUntil:'networkidle'});await page.locator('h1').waitFor();
+const desktop=await page.evaluate(()=>({title:document.title,h1:document.querySelector('h1')?.innerText,sidebar:document.querySelector('aside')?.getBoundingClientRect().width,header:document.querySelector('header')?.getBoundingClientRect().height,headings:[...document.querySelectorAll('main h1,main h2')].map(e=>({text:e.innerText,x:e.getBoundingClientRect().x,y:e.getBoundingClientRect().y,w:e.getBoundingClientRect().width,h:e.getBoundingClientRect().height})),overflow:document.documentElement.scrollWidth>innerWidth}));
+await page.screenshot({path:'qa/screenshots/dashboard-desktop.png',fullPage:true});
+await page.getByRole('button',{name:'Thu gọn',exact:true}).click();await page.waitForFunction(()=>Math.round(document.querySelector('aside').getBoundingClientRect().width)===64);
+await page.reload({waitUntil:'networkidle'});const collapsed=await page.locator('aside').evaluate(e=>e.getBoundingClientRect().width===64);
+await page.getByRole('button',{name:'Mở rộng',exact:true}).click();
+await page.keyboard.press('Control+k');await page.getByRole('dialog').waitFor();await page.getByRole('textbox').fill('neko');const dictionary=await page.getByText('Con mèo',{exact:true}).isVisible();await page.keyboard.press('Escape');
+await page.getByRole('button',{name:'Đổi giao diện'}).click();await page.waitForFunction(()=>document.documentElement.classList.contains('dark'));await page.screenshot({path:'qa/screenshots/dashboard-dark.png'});await page.getByRole('button',{name:'Đổi giao diện'}).click();
+await page.setViewportSize({width:390,height:844});await page.screenshot({path:'qa/screenshots/dashboard-mobile.png',fullPage:true});const mobile=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,overflow:document.documentElement.scrollWidth>innerWidth,overflowElements:[...document.querySelectorAll('main *')].filter(e=>e.getBoundingClientRect().right>innerWidth+1&&e.getBoundingClientRect().width>0).slice(0,12).map(e=>({tag:e.tagName,cls:e.className,right:e.getBoundingClientRect().right}))}));
+await page.getByRole('button',{name:'Mở menu'}).click();const sheet=await page.getByRole('dialog').isVisible();await page.keyboard.press('Escape');
+const result={desktop,collapsed,dictionary,mobile,sheet,errors};await fs.writeFile('qa/dashboard.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));await browser.close();if(errors.length||desktop.overflow||mobile.overflow||!collapsed||!dictionary||!sheet)process.exit(1);
