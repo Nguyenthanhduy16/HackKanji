@@ -1,0 +1,11 @@
+{
+  "aboutTitle": "Về NhaiKanji",
+  "aboutText": "NhaiKanji là ứng dụng học tiếng Nhật với chép chính tả, shadowing, flashcard và các bài luyện tập ngắn. Phiên bản này sử dụng nội dung mẫu được biên soạn riêng và lưu tiến độ trên trình duyệt.",
+  "privacyTitle": "Chính sách bảo mật của bản trải nghiệm",
+  "privacyText": "Tiến độ, bộ thẻ, ghi chú và thông tin hồ sơ demo được lưu trong localStorage của trình duyệt này. Bản ghi âm được tạo trên thiết bị khi bạn cho phép sử dụng micro; ứng dụng không tự gửi bản ghi đi. Xóa dữ liệu trang web trong trình duyệt sẽ xóa dữ liệu demo. Dịch vụ Google/email chỉ hoạt động khi chủ ứng dụng cấu hình máy chủ.",
+  "termsTitle": "Điều khoản sử dụng",
+  "termsText": "Các bài học và đề kiểm tra trong bản trải nghiệm dùng để thực hành, không phải đề JLPT chính thức. Tính năng ghi âm dùng để tự nghe và so sánh, không phải chứng nhận trình độ. Không nhập thông tin nhạy cảm vào dữ liệu demo dùng chung.",
+  "contactTitle": "Liên hệ & góp ý",
+  "contactText": "Bạn có thể ghi lại góp ý cho ứng dụng trong mục Phản hồi cộng đồng. Trong bản trải nghiệm, phản hồi được lưu trên trình duyệt và không tự động gửi tới bên thứ ba.",
+  "feedback": "Viết phản hồi"
+}

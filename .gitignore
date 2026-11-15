@@ -1,2 +1,27 @@
 node_modules
+.next
+.next-production
 dist
+.env
+.env.local
+.local
+*.tsbuildinfo
+reference/
+playwright-report/
+test-results/
+
+qa/*.log
+qa/*.tmp
+qa/.hermes-tmp.*
+qa/screenshots/*failure*.png
+src/features/study/qa/*failure*.png
+src/features/lessons/qa/failure.png
+src/features/lessons/tools/.hermes-tmp.*
+
+# Generated browser evidence and raw audits stay local.
+qa/screenshots/
+src/features/*/qa/*.png
+qa/lighthouse-home-*.json
+qa/npm-audit-full.json
+/qa-audit.json
+.hermes-tmp.*

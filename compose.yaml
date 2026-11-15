@@ -1,0 +1,21 @@
+name: nhaikanji-local
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      # Development-only credentials. Never reuse these for deployment.
+      POSTGRES_DB: nhaikanji
+      POSTGRES_USER: nhaikanji
+      POSTGRES_PASSWORD: nhaikanji_dev_only
+    ports:
+      - "127.0.0.1:5434:5432"
+    volumes:
+      - nhaikanji_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nhaikanji -d nhaikanji"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+volumes:
+  nhaikanji_postgres_data:

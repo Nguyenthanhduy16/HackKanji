@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <main className="flex min-h-dvh flex-col items-center justify-center gap-5 bg-canvas p-6"><span className="text-7xl font-bold text-primary">404</span><p className="text-lg font-medium">Page not found · Không tìm thấy trang</p><Link href="/vi/home" className="rounded-xl bg-primary px-6 py-3 font-medium text-primary-foreground">Trang chủ / Home →</Link></main>;}

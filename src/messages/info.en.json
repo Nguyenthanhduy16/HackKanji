@@ -1,0 +1,11 @@
+{
+  "aboutTitle": "About NhaiKanji",
+  "aboutText": "NhaiKanji combines Japanese dictation, shadowing, flashcards and short practice activities. This version uses original sample content and saves progress in your browser.",
+  "privacyTitle": "Demo privacy",
+  "privacyText": "Progress, decks, notes and demo profiles are saved in this browser’s localStorage. Recordings are created on your device only after microphone permission; recordings are not automatically uploaded. Clearing site data deletes the demo data. Google/email sign-in requires a configured server.",
+  "termsTitle": "Terms of use",
+  "termsText": "Sample lessons and exams are for practice and are not official JLPT exams. Recording supports self-review rather than proficiency certification. Do not enter sensitive information into shared demo data.",
+  "contactTitle": "Contact & feedback",
+  "contactText": "You can write suggestions on the Feedback page. In this demo, feedback stays in your browser and is not automatically sent to any third party.",
+  "feedback": "Write feedback"
+}
