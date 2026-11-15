@@ -1,0 +1,79 @@
+{
+  "catalogue": {
+    "initial": 30,
+    "beginner": 12,
+    "experienced": 18,
+    "music": 1,
+    "search": 1,
+    "empty": true,
+    "seeAll": true,
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": false
+    }
+  },
+  "dictation": {
+    "audio": {
+      "src": "http://localhost:3000/lessons/audio/morning-coffee-1.mp3",
+      "duration": 1.776,
+      "readyState": 4
+    },
+    "keyboardSeek": 1.776,
+    "revealScore": 50,
+    "wrongAnswer": true,
+    "normalizedScore": 100,
+    "tabFocus": "Hiện từ 1",
+    "completed": true,
+    "notes": true
+  },
+  "shadowing": {
+    "ruby": true,
+    "recording": {
+      "src": "blob:http://localhost:3000/305e18ad-7012-4539-846d-b6e3f55243d1",
+      "bytes": 12581,
+      "readyState": 4
+    },
+    "recordingPlayback": true,
+    "honestScore": true,
+    "compare": true,
+    "hideTranscript": true,
+    "modalEscape": true
+  },
+  "mobile": {
+    "catalogue": {
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": false
+    },
+    "dictation": {
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": false
+    },
+    "shadowing": {
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": false
+    }
+  },
+  "locales": {
+    "en": {
+      "heading": "Listen closer. Understand Japanese better.",
+      "overflow": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": false
+      }
+    },
+    "ja": {
+      "heading": "よく聞いて、日本語をもっと深く。",
+      "overflow": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": false
+      }
+    }
+  },
+  "errors": []
+}
