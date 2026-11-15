@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": [
+    "Settings renders configured signed-out controls",
+    "Real Settings restores a private database snapshot",
+    "Save from Settings is read back in PostgreSQL",
+    "Locale navigation retains scoped account data",
+    "Actual dictation input and unsaved notes survive delayed same-account focus",
+    "Actual recording survives successful and failed background account checks",
+    "Player notes do not leak across authenticated accounts",
+    "Logout restores anonymous state in the full app",
+    "Integrated Settings remains responsive and has no page errors"
+  ],
+  "errors": [],
+  "externalOAuthOrEmail": false
+}

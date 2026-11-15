@@ -1,0 +1,347 @@
+[
+  {
+    "route": "home",
+    "status": 200,
+    "desktop": {
+      "heading": "Chào mừng trở lại",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "practice",
+    "status": 200,
+    "desktop": {
+      "heading": "Thư viện bài học",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "listening",
+    "status": 200,
+    "desktop": {
+      "heading": "Nghe kỹ hơn. Hiểu tiếng Nhật sâu hơn.",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "speaking",
+    "status": 200,
+    "desktop": {
+      "heading": "Tìm nhịp điệu tiếng Nhật của riêng bạn.",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "vocabulary",
+    "status": 200,
+    "desktop": {
+      "heading": "Học từ vựng tiếng Nhật",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "grammar",
+    "status": 200,
+    "desktop": {
+      "heading": "Ngữ pháp tiếng Nhật",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "review",
+    "status": 200,
+    "desktop": {
+      "heading": "Ôn tập của bạn",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "exams",
+    "status": 200,
+    "desktop": {
+      "heading": "Luyện thi JLPT",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "games",
+    "status": 200,
+    "desktop": {
+      "heading": "Trò chơi",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "shop",
+    "status": 200,
+    "desktop": {
+      "heading": "Cửa hàng",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "leaderboard",
+    "status": 200,
+    "desktop": {
+      "heading": "Bảng xếp hạng",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "community",
+    "status": 200,
+    "desktop": {
+      "heading": "Cộng đồng",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "profile",
+    "status": 200,
+    "desktop": {
+      "heading": "Trang cá nhân",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "missions",
+    "status": 200,
+    "desktop": {
+      "heading": "Nhiệm vụ hàng ngày",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "my-notes",
+    "status": 200,
+    "desktop": {
+      "heading": "Ghi chú của tôi",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "my-vocabulary",
+    "status": 200,
+    "desktop": {
+      "heading": "Từ vựng của tôi",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "feedbacks",
+    "status": 200,
+    "desktop": {
+      "heading": "Góp ý & phản hồi",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "settings",
+    "status": 200,
+    "desktop": {
+      "heading": "Cài đặt",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "auth",
+    "status": 200,
+    "desktop": {
+      "heading": "Chào mừng trở lại",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "about",
+    "status": 200,
+    "desktop": {
+      "heading": "Về NhaiKanji",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "privacy",
+    "status": 200,
+    "desktop": {
+      "heading": "Chính sách bảo mật của bản trải nghiệm",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "terms",
+    "status": 200,
+    "desktop": {
+      "heading": "Điều khoản sử dụng",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  },
+  {
+    "route": "contact",
+    "status": 200,
+    "desktop": {
+      "heading": "Liên hệ & góp ý",
+      "overflow": false,
+      "missing": [],
+      "broken": []
+    },
+    "mobile": {
+      "overflow": false,
+      "width": 390
+    },
+    "errors": []
+  }
+]

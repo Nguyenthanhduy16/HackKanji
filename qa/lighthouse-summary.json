@@ -1,0 +1,18 @@
+{
+  "desktop": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 92
+    },
+    "url": "http://localhost:3000/vi/home",
+    "fetchTime": "2026-11-15T14:51:30.384Z"
+  },
+  "mobile": {
+    "scores": {
+      "performance": 93,
+      "accessibility": 92
+    },
+    "url": "http://localhost:3000/vi/home",
+    "fetchTime": "2026-11-15T14:48:08.994Z"
+  }
+}

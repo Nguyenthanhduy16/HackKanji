@@ -1,0 +1,1494 @@
+{
+  "checks": [
+    {
+      "name": "compact catalogue cards",
+      "pass": true,
+      "detail": {
+        "width": 260,
+        "height": 231.125,
+        "bodyHeight": 84,
+        "titleHeight": 40,
+        "titles": 1,
+        "footerInside": true
+      }
+    },
+    {
+      "name": "all local MP3 files decode",
+      "pass": true,
+      "detail": {
+        "expected": 90,
+        "decoded": 90
+      }
+    },
+    {
+      "name": "vi/practice responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "vi/listening responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "vi/speaking responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "vi/listening/morning-coffee responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "vi/speaking/morning-coffee responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "en/practice responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "en/listening responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "en/speaking responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "en/listening/morning-coffee responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "en/speaking/morning-coffee responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "ja/practice responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "ja/listening responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "ja/speaking responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "ja/listening/morning-coffee responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "ja/speaking/morning-coffee responsive and localized",
+      "pass": true,
+      "detail": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "missing": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "missing": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "missing": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "missing": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "name": "furigana and translation toggles",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "transcript and mobile artwork toggles",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "continuous native playback advances sentence",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "replay pauses the recorded take",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "shadowing updates the shared daily mission",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "lesson comments persist locally across modes",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "no browser errors or external writes",
+      "pass": true,
+      "detail": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "externalRequests": [],
+  "writeRequests": [],
+  "cardMetrics": [
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    },
+    {
+      "width": 260,
+      "height": 231.125,
+      "bodyHeight": 84,
+      "titleHeight": 40,
+      "titles": 1,
+      "footerInside": true
+    }
+  ],
+  "audioFiles": [
+    {
+      "id": "morning-coffee-3",
+      "status": 200,
+      "bytes": 23616,
+      "duration": 2.952,
+      "expected": 2.952,
+      "channels": 1
+    },
+    {
+      "id": "morning-coffee-2",
+      "status": 200,
+      "bytes": 26880,
+      "duration": 3.36,
+      "expected": 3.36,
+      "channels": 1
+    },
+    {
+      "id": "morning-coffee-1",
+      "status": 200,
+      "bytes": 14208,
+      "duration": 1.776,
+      "expected": 1.776,
+      "channels": 1
+    },
+    {
+      "id": "rainy-bookshop-1",
+      "status": 200,
+      "bytes": 31296,
+      "duration": 3.912,
+      "expected": 3.912,
+      "channels": 1
+    },
+    {
+      "id": "rainy-bookshop-2",
+      "status": 200,
+      "bytes": 28416,
+      "duration": 3.552,
+      "expected": 3.552,
+      "channels": 1
+    },
+    {
+      "id": "rainy-bookshop-3",
+      "status": 200,
+      "bytes": 30336,
+      "duration": 3.792,
+      "expected": 3.792,
+      "channels": 1
+    },
+    {
+      "id": "neighbour-garden-3",
+      "status": 200,
+      "bytes": 36288,
+      "duration": 4.536,
+      "expected": 4.536,
+      "channels": 1
+    },
+    {
+      "id": "neighbour-garden-2",
+      "status": 200,
+      "bytes": 36288,
+      "duration": 4.536,
+      "expected": 4.536,
+      "channels": 1
+    },
+    {
+      "id": "neighbour-garden-1",
+      "status": 200,
+      "bytes": 40512,
+      "duration": 5.064,
+      "expected": 5.064,
+      "channels": 1
+    },
+    {
+      "id": "quiet-weekend-3",
+      "status": 200,
+      "bytes": 43392,
+      "duration": 5.424,
+      "expected": 5.424,
+      "channels": 1
+    },
+    {
+      "id": "quiet-weekend-2",
+      "status": 200,
+      "bytes": 39168,
+      "duration": 4.896,
+      "expected": 4.896,
+      "channels": 1
+    },
+    {
+      "id": "quiet-weekend-1",
+      "status": 200,
+      "bytes": 49344,
+      "duration": 6.168,
+      "expected": 6.168,
+      "channels": 1
+    },
+    {
+      "id": "meaning-of-home-2",
+      "status": 200,
+      "bytes": 36288,
+      "duration": 4.536,
+      "expected": 4.536,
+      "channels": 1
+    },
+    {
+      "id": "meaning-of-home-3",
+      "status": 200,
+      "bytes": 43584,
+      "duration": 5.448,
+      "expected": 5.448,
+      "channels": 1
+    },
+    {
+      "id": "meaning-of-home-1",
+      "status": 200,
+      "bytes": 34752,
+      "duration": 4.344,
+      "expected": 4.344,
+      "channels": 1
+    },
+    {
+      "id": "market-basket-1",
+      "status": 200,
+      "bytes": 16128,
+      "duration": 2.016,
+      "expected": 2.016,
+      "channels": 1
+    },
+    {
+      "id": "market-basket-2",
+      "status": 200,
+      "bytes": 18048,
+      "duration": 2.256,
+      "expected": 2.256,
+      "channels": 1
+    },
+    {
+      "id": "market-basket-3",
+      "status": 200,
+      "bytes": 19584,
+      "duration": 2.448,
+      "expected": 2.448,
+      "channels": 1
+    },
+    {
+      "id": "station-ticket-1",
+      "status": 200,
+      "bytes": 15552,
+      "duration": 1.944,
+      "expected": 1.944,
+      "channels": 1
+    },
+    {
+      "id": "station-ticket-3",
+      "status": 200,
+      "bytes": 18624,
+      "duration": 2.328,
+      "expected": 2.328,
+      "channels": 1
+    },
+    {
+      "id": "station-ticket-2",
+      "status": 200,
+      "bytes": 21312,
+      "duration": 2.664,
+      "expected": 2.664,
+      "channels": 1
+    },
+    {
+      "id": "kyoto-bicycle-1",
+      "status": 200,
+      "bytes": 22272,
+      "duration": 2.784,
+      "expected": 2.784,
+      "channels": 1
+    },
+    {
+      "id": "kyoto-bicycle-2",
+      "status": 200,
+      "bytes": 34560,
+      "duration": 4.32,
+      "expected": 4.32,
+      "channels": 1
+    },
+    {
+      "id": "kyoto-bicycle-3",
+      "status": 200,
+      "bytes": 34752,
+      "duration": 4.344,
+      "expected": 4.344,
+      "channels": 1
+    },
+    {
+      "id": "island-postcard-1",
+      "status": 200,
+      "bytes": 35520,
+      "duration": 4.44,
+      "expected": 4.44,
+      "channels": 1
+    },
+    {
+      "id": "island-postcard-3",
+      "status": 200,
+      "bytes": 39168,
+      "duration": 4.896,
+      "expected": 4.896,
+      "channels": 1
+    },
+    {
+      "id": "island-postcard-2",
+      "status": 200,
+      "bytes": 30144,
+      "duration": 3.768,
+      "expected": 3.768,
+      "channels": 1
+    },
+    {
+      "id": "slow-travel-2",
+      "status": 200,
+      "bytes": 36096,
+      "duration": 4.512,
+      "expected": 4.512,
+      "channels": 1
+    },
+    {
+      "id": "slow-travel-1",
+      "status": 200,
+      "bytes": 41856,
+      "duration": 5.232,
+      "expected": 5.232,
+      "channels": 1
+    },
+    {
+      "id": "slow-travel-3",
+      "status": 200,
+      "bytes": 41088,
+      "duration": 5.136,
+      "expected": 5.136,
+      "channels": 1
+    },
+    {
+      "id": "mountain-keepers-1",
+      "status": 200,
+      "bytes": 45504,
+      "duration": 5.688,
+      "expected": 5.688,
+      "channels": 1
+    },
+    {
+      "id": "mountain-keepers-3",
+      "status": 200,
+      "bytes": 42624,
+      "duration": 5.328,
+      "expected": 5.328,
+      "channels": 1
+    },
+    {
+      "id": "mountain-keepers-2",
+      "status": 200,
+      "bytes": 43008,
+      "duration": 5.376,
+      "expected": 5.376,
+      "channels": 1
+    },
+    {
+      "id": "lost-umbrella-1",
+      "status": 200,
+      "bytes": 25728,
+      "duration": 3.216,
+      "expected": 3.216,
+      "channels": 1
+    },
+    {
+      "id": "lost-umbrella-2",
+      "status": 200,
+      "bytes": 32064,
+      "duration": 4.008,
+      "expected": 4.008,
+      "channels": 1
+    },
+    {
+      "id": "lost-umbrella-3",
+      "status": 200,
+      "bytes": 33024,
+      "duration": 4.128,
+      "expected": 4.128,
+      "channels": 1
+    },
+    {
+      "id": "cat-window-1",
+      "status": 200,
+      "bytes": 16704,
+      "duration": 2.088,
+      "expected": 2.088,
+      "channels": 1
+    },
+    {
+      "id": "cat-window-2",
+      "status": 200,
+      "bytes": 20928,
+      "duration": 2.616,
+      "expected": 2.616,
+      "channels": 1
+    },
+    {
+      "id": "cat-window-3",
+      "status": 200,
+      "bytes": 19008,
+      "duration": 2.376,
+      "expected": 2.376,
+      "channels": 1
+    },
+    {
+      "id": "little-lantern-1",
+      "status": 200,
+      "bytes": 27456,
+      "duration": 3.432,
+      "expected": 3.432,
+      "channels": 1
+    },
+    {
+      "id": "little-lantern-2",
+      "status": 200,
+      "bytes": 25536,
+      "duration": 3.192,
+      "expected": 3.192,
+      "channels": 1
+    },
+    {
+      "id": "little-lantern-3",
+      "status": 200,
+      "bytes": 35328,
+      "duration": 4.416,
+      "expected": 4.416,
+      "channels": 1
+    },
+    {
+      "id": "paper-bird-1",
+      "status": 200,
+      "bytes": 37440,
+      "duration": 4.68,
+      "expected": 4.68,
+      "channels": 1
+    },
+    {
+      "id": "paper-bird-2",
+      "status": 200,
+      "bytes": 28416,
+      "duration": 3.552,
+      "expected": 3.552,
+      "channels": 1
+    },
+    {
+      "id": "paper-bird-3",
+      "status": 200,
+      "bytes": 37632,
+      "duration": 4.704,
+      "expected": 4.704,
+      "channels": 1
+    },
+    {
+      "id": "moon-baker-1",
+      "status": 200,
+      "bytes": 43200,
+      "duration": 5.4,
+      "expected": 5.4,
+      "channels": 1
+    },
+    {
+      "id": "moon-baker-2",
+      "status": 200,
+      "bytes": 38976,
+      "duration": 4.872,
+      "expected": 4.872,
+      "channels": 1
+    },
+    {
+      "id": "moon-baker-3",
+      "status": 200,
+      "bytes": 38976,
+      "duration": 4.872,
+      "expected": 4.872,
+      "channels": 1
+    },
+    {
+      "id": "clockmaker-1",
+      "status": 200,
+      "bytes": 45504,
+      "duration": 5.688,
+      "expected": 5.688,
+      "channels": 1
+    },
+    {
+      "id": "clockmaker-2",
+      "status": 200,
+      "bytes": 46464,
+      "duration": 5.808,
+      "expected": 5.808,
+      "channels": 1
+    },
+    {
+      "id": "clockmaker-3",
+      "status": 200,
+      "bytes": 48384,
+      "duration": 6.048,
+      "expected": 6.048,
+      "channels": 1
+    },
+    {
+      "id": "rooftop-melody-2",
+      "status": 200,
+      "bytes": 39552,
+      "duration": 4.944,
+      "expected": 4.944,
+      "channels": 1
+    },
+    {
+      "id": "rooftop-melody-1",
+      "status": 200,
+      "bytes": 39168,
+      "duration": 4.896,
+      "expected": 4.896,
+      "channels": 1
+    },
+    {
+      "id": "rooftop-melody-3",
+      "status": 200,
+      "bytes": 48384,
+      "duration": 6.048,
+      "expected": 6.048,
+      "channels": 1
+    },
+    {
+      "id": "first-day-1",
+      "status": 200,
+      "bytes": 11520,
+      "duration": 1.44,
+      "expected": 1.44,
+      "channels": 1
+    },
+    {
+      "id": "first-day-2",
+      "status": 200,
+      "bytes": 13824,
+      "duration": 1.728,
+      "expected": 1.728,
+      "channels": 1
+    },
+    {
+      "id": "first-day-3",
+      "status": 200,
+      "bytes": 21696,
+      "duration": 2.712,
+      "expected": 2.712,
+      "channels": 1
+    },
+    {
+      "id": "meeting-room-2",
+      "status": 200,
+      "bytes": 22464,
+      "duration": 2.808,
+      "expected": 2.808,
+      "channels": 1
+    },
+    {
+      "id": "meeting-room-1",
+      "status": 200,
+      "bytes": 24960,
+      "duration": 3.12,
+      "expected": 3.12,
+      "channels": 1
+    },
+    {
+      "id": "meeting-room-3",
+      "status": 200,
+      "bytes": 24768,
+      "duration": 3.096,
+      "expected": 3.096,
+      "channels": 1
+    },
+    {
+      "id": "kind-feedback-1",
+      "status": 200,
+      "bytes": 43776,
+      "duration": 5.472,
+      "expected": 5.472,
+      "channels": 1
+    },
+    {
+      "id": "kind-feedback-2",
+      "status": 200,
+      "bytes": 33216,
+      "duration": 4.152,
+      "expected": 4.152,
+      "channels": 1
+    },
+    {
+      "id": "kind-feedback-3",
+      "status": 200,
+      "bytes": 38400,
+      "duration": 4.8,
+      "expected": 4.8,
+      "channels": 1
+    },
+    {
+      "id": "remote-team-1",
+      "status": 200,
+      "bytes": 56448,
+      "duration": 7.056,
+      "expected": 7.056,
+      "channels": 1
+    },
+    {
+      "id": "remote-team-2",
+      "status": 200,
+      "bytes": 48192,
+      "duration": 6.024,
+      "expected": 6.024,
+      "channels": 1
+    },
+    {
+      "id": "remote-team-3",
+      "status": 200,
+      "bytes": 34176,
+      "duration": 4.272,
+      "expected": 4.272,
+      "channels": 1
+    },
+    {
+      "id": "responsible-design-2",
+      "status": 200,
+      "bytes": 44352,
+      "duration": 5.544,
+      "expected": 5.544,
+      "channels": 1
+    },
+    {
+      "id": "responsible-design-1",
+      "status": 200,
+      "bytes": 46080,
+      "duration": 5.76,
+      "expected": 5.76,
+      "channels": 1
+    },
+    {
+      "id": "responsible-design-3",
+      "status": 200,
+      "bytes": 44544,
+      "duration": 5.568,
+      "expected": 5.568,
+      "channels": 1
+    },
+    {
+      "id": "project-handoff-1",
+      "status": 200,
+      "bytes": 33408,
+      "duration": 4.176,
+      "expected": 4.176,
+      "channels": 1
+    },
+    {
+      "id": "project-handoff-2",
+      "status": 200,
+      "bytes": 44736,
+      "duration": 5.592,
+      "expected": 5.592,
+      "channels": 1
+    },
+    {
+      "id": "project-handoff-3",
+      "status": 200,
+      "bytes": 46272,
+      "duration": 5.784,
+      "expected": 5.784,
+      "channels": 1
+    },
+    {
+      "id": "library-promise-1",
+      "status": 200,
+      "bytes": 22464,
+      "duration": 2.808,
+      "expected": 2.808,
+      "channels": 1
+    },
+    {
+      "id": "library-promise-2",
+      "status": 200,
+      "bytes": 26880,
+      "duration": 3.36,
+      "expected": 3.36,
+      "channels": 1
+    },
+    {
+      "id": "library-promise-3",
+      "status": 200,
+      "bytes": 18240,
+      "duration": 2.28,
+      "expected": 2.28,
+      "channels": 1
+    },
+    {
+      "id": "lunch-choice-1",
+      "status": 200,
+      "bytes": 29952,
+      "duration": 3.744,
+      "expected": 3.744,
+      "channels": 1
+    },
+    {
+      "id": "lunch-choice-2",
+      "status": 200,
+      "bytes": 26304,
+      "duration": 3.288,
+      "expected": 3.288,
+      "channels": 1
+    },
+    {
+      "id": "lunch-choice-3",
+      "status": 200,
+      "bytes": 34560,
+      "duration": 4.32,
+      "expected": 4.32,
+      "channels": 1
+    },
+    {
+      "id": "study-rhythm-1",
+      "status": 200,
+      "bytes": 31872,
+      "duration": 3.984,
+      "expected": 3.984,
+      "channels": 1
+    },
+    {
+      "id": "study-rhythm-2",
+      "status": 200,
+      "bytes": 38400,
+      "duration": 4.8,
+      "expected": 4.8,
+      "channels": 1
+    },
+    {
+      "id": "study-rhythm-3",
+      "status": 200,
+      "bytes": 34368,
+      "duration": 4.296,
+      "expected": 4.296,
+      "channels": 1
+    },
+    {
+      "id": "shared-bicycles-1",
+      "status": 200,
+      "bytes": 44352,
+      "duration": 5.544,
+      "expected": 5.544,
+      "channels": 1
+    },
+    {
+      "id": "shared-bicycles-2",
+      "status": 200,
+      "bytes": 41472,
+      "duration": 5.184,
+      "expected": 5.184,
+      "channels": 1
+    },
+    {
+      "id": "shared-bicycles-3",
+      "status": 200,
+      "bytes": 46656,
+      "duration": 5.832,
+      "expected": 5.832,
+      "channels": 1
+    },
+    {
+      "id": "language-perspectives-1",
+      "status": 200,
+      "bytes": 51072,
+      "duration": 6.384,
+      "expected": 6.384,
+      "channels": 1
+    },
+    {
+      "id": "language-perspectives-2",
+      "status": 200,
+      "bytes": 48576,
+      "duration": 6.072,
+      "expected": 6.072,
+      "channels": 1
+    },
+    {
+      "id": "language-perspectives-3",
+      "status": 200,
+      "bytes": 34944,
+      "duration": 4.368,
+      "expected": 4.368,
+      "channels": 1
+    },
+    {
+      "id": "changing-town-1",
+      "status": 200,
+      "bytes": 49920,
+      "duration": 6.24,
+      "expected": 6.24,
+      "channels": 1
+    },
+    {
+      "id": "changing-town-2",
+      "status": 200,
+      "bytes": 42816,
+      "duration": 5.352,
+      "expected": 5.352,
+      "channels": 1
+    },
+    {
+      "id": "changing-town-3",
+      "status": 200,
+      "bytes": 36288,
+      "duration": 4.536,
+      "expected": 4.536,
+      "channels": 1
+    }
+  ],
+  "passed": 24,
+  "failed": 0
+}

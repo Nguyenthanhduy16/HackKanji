@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "resolved": [
+    "Separate listening/speaking completions and rewards",
+    "Mode-qualified active lessons displayed in profile",
+    "Freeze-protected dates counted consistently",
+    "Rankings use dated activity in the selected period",
+    "Only streak milestones display freeze rewards"
+  ],
+  "remaining": [],
+  "scope": "Independent source review of the five reported integration defects, plus five focused unit regressions and four browser regression checks. Not a claim of full service or pixel parity."
+}

@@ -1,0 +1,148 @@
+{
+  "routes": {
+    "expected": 23,
+    "checked": 23,
+    "passed": 23
+  },
+  "lessons": {
+    "passed": 24,
+    "failed": 0,
+    "audioFiles": 90
+  },
+  "study": {
+    "checks": 14,
+    "passed": 14,
+    "games": 10,
+    "layouts": 42
+  },
+  "social": {
+    "checks": 8,
+    "passed": true
+  },
+  "backend": {
+    "checks": 15,
+    "passed": true,
+    "seedCounts": {
+      "users": 21,
+      "categories": 5,
+      "lessons": 30,
+      "sentences": 90,
+      "words": 704,
+      "shopItems": 10,
+      "milestones": 10,
+      "missions": 4,
+      "grammar": 20,
+      "exams": 5,
+      "questions": 25
+    },
+    "oauthTested": false
+  },
+  "audit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "lighthouse": {
+    "desktop": {
+      "scores": {
+        "performance": 100,
+        "accessibility": 92
+      },
+      "url": "http://localhost:3000/vi/home",
+      "fetchTime": "2026-11-15T14:51:30.384Z"
+    },
+    "mobile": {
+      "scores": {
+        "performance": 93,
+        "accessibility": 92
+      },
+      "url": "http://localhost:3000/vi/home",
+      "fetchTime": "2026-11-15T14:48:08.994Z"
+    }
+  },
+  "unitTests": {
+    "passed": 39,
+    "failed": 0,
+    "skippedByDefault": 1,
+    "optInYouTubeSuitePassed": 9
+  },
+  "build": {
+    "passed": true,
+    "log": "qa/build.log"
+  },
+  "reviewRegressions": {
+    "passed": 4,
+    "failed": 0,
+    "browserErrors": 0
+  },
+  "independentReview": {
+    "passed": true,
+    "resolved": [
+      "Separate listening/speaking completions and rewards",
+      "Mode-qualified active lessons displayed in profile",
+      "Freeze-protected dates counted consistently",
+      "Rankings use dated activity in the selected period",
+      "Only streak milestones display freeze rewards"
+    ],
+    "remaining": [],
+    "scope": "Independent source review of the five reported integration defects, plus five focused unit regressions and four browser regression checks. Not a claim of full service or pixel parity."
+  },
+  "accountBackup": {
+    "passed": true,
+    "mode": "manual-private-backup",
+    "database": "127.0.0.1:5434/nhaikanji_account_test",
+    "checks": [
+      "unauthenticated read/write rejected and response not cached",
+      "real database session round-trip and account privacy",
+      "origin, owner race, stale version, malformed and oversized payloads rejected",
+      "browser restores on a second device and saves manually",
+      "same-account focus and visibility checks preserve mounted drafts",
+      "failed identity refresh preserves offline draft and recovers",
+      "browser conflict requires explicit choice and network failure never confirms save",
+      "browser explicit demo import stays local until a save",
+      "boundary remount retains account isolation and original anonymous data",
+      "browser logout returns original anonymous data",
+      "expired database session rejected",
+      "unconfigured auth hides cloud controls and leaves demo data unchanged"
+    ],
+    "count": 12,
+    "authoritativeXpUnchanged": true,
+    "externalOAuthOrEmail": false
+  },
+  "accountApp": {
+    "passed": true,
+    "checks": [
+      "Settings renders configured signed-out controls",
+      "Real Settings restores a private database snapshot",
+      "Save from Settings is read back in PostgreSQL",
+      "Locale navigation retains scoped account data",
+      "Actual dictation input and unsaved notes survive delayed same-account focus",
+      "Actual recording survives successful and failed background account checks",
+      "Player notes do not leak across authenticated accounts",
+      "Logout restores anonymous state in the full app",
+      "Integrated Settings remains responsive and has no page errors"
+    ],
+    "errors": [],
+    "externalOAuthOrEmail": false
+  },
+  "youtube": {
+    "fakeBrowserChecks": 5,
+    "realAPIReady": true,
+    "realClipPauseVerified": true,
+    "errors": []
+  },
+  "grammarDeepLink": {
+    "passed": true
+  },
+  "newModuleReview": {
+    "initialPassed": false,
+    "blockingFindings": 1,
+    "resolvedFindings": 1,
+    "remainingKnownFindings": 0,
+    "resolutionEvidence": "qa/account-focus-regression.json",
+    "resolutionVerifiedBy": "parent: real production browser + database-session harness"
+  }
+}

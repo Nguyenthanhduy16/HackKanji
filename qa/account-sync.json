@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "mode": "manual-private-backup",
+  "database": "127.0.0.1:5434/nhaikanji_account_test",
+  "checks": [
+    "unauthenticated read/write rejected and response not cached",
+    "real database session round-trip and account privacy",
+    "origin, owner race, stale version, malformed and oversized payloads rejected",
+    "browser restores on a second device and saves manually",
+    "same-account focus and visibility checks preserve mounted drafts",
+    "failed identity refresh preserves offline draft and recovers",
+    "browser conflict requires explicit choice and network failure never confirms save",
+    "browser explicit demo import stays local until a save",
+    "boundary remount retains account isolation and original anonymous data",
+    "browser logout returns original anonymous data",
+    "expired database session rejected",
+    "unconfigured auth hides cloud controls and leaves demo data unchanged"
+  ],
+  "count": 12,
+  "authoritativeXpUnchanged": true,
+  "externalOAuthOrEmail": false
+}

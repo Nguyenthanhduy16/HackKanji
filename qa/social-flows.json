@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "Buy and equip affordable frame, balance persists",
+    "Daily check-in reward claims exactly once",
+    "Profile edit and privacy persist",
+    "Notes create, edit, search and delete",
+    "Personal vocabulary creates review card",
+    "Community local post, like and comment persist",
+    "Feedback saves locally",
+    "Community at 390px and dark theme"
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "checks": 15,
+  "database": "127.0.0.1:5434/nhaikanji_test",
+  "seedCounts": {
+    "users": 21,
+    "categories": 5,
+    "lessons": 30,
+    "sentences": 90,
+    "words": 704,
+    "shopItems": 10,
+    "milestones": 10,
+    "missions": 4,
+    "grammar": 20,
+    "exams": 5,
+    "questions": 25
+  },
+  "results": [
+    {
+      "name": "seed exact totals and one demo plus twenty ranking users",
+      "passed": true
+    },
+    {
+      "name": "second seed preserves counts, identities, and existing user state",
+      "passed": true
+    },
+    {
+      "name": "concurrent identical purchases debit once and return one receipt",
+      "passed": true
+    },
+    {
+      "name": "concurrent purchases cannot overdraw a one-item balance",
+      "passed": true
+    },
+    {
+      "name": "concurrent cosmetics retain one inventory item and one debit",
+      "passed": true
+    },
+    {
+      "name": "freeze cap rejects purchases without changing balance",
+      "passed": true
+    },
+    {
+      "name": "concurrent check-in and mission claims award exactly once",
+      "passed": true
+    },
+    {
+      "name": "concurrent milestone claims award once and retain one receipt",
+      "passed": true
+    },
+    {
+      "name": "incorrect answers award nothing; repeated sentences and completed lesson award once",
+      "passed": true
+    },
+    {
+      "name": "public APIs read actual database rows",
+      "passed": true
+    },
+    {
+      "name": "database sessions enforce authentication, expiry, and private profile",
+      "passed": true
+    },
+    {
+      "name": "HTTP mutations reject cross-origin, malformed JSON and spoofed ownership",
+      "passed": true
+    },
+    {
+      "name": "concurrent authenticated HTTP purchases debit the session owner once",
+      "passed": true
+    },
+    {
+      "name": "authenticated check-in and concurrent mission HTTP claims persist one reward",
+      "passed": true
+    },
+    {
+      "name": "deleted database session loses access immediately",
+      "passed": true
+    }
+  ],
+  "cleanupVerified": true,
+  "apiTested": true,
+  "oauthTested": false,
+  "externalEmailSent": false,
+  "completedAt": "2026-11-15T14:55:42.633Z"
+}

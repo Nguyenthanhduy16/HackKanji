@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "name": "profile counts and completion lists follow selected mode",
+      "passed": true
+    },
+    {
+      "name": "profile shows an active lesson with namespaced player ID",
+      "passed": true
+    },
+    {
+      "name": "weekly personal XP excludes old activity and includes current-day earnings",
+      "passed": true
+    },
+    {
+      "name": "level milestones do not promise streak-only freezes",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

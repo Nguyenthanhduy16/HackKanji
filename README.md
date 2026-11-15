@@ -108,4 +108,4 @@ Bằng chứng: `qa/`, `src/features/lessons/qa/report.json`, `src/features/stud
 - `public/lessons/`: hình gốc và 90 MP3; `public/shop/`: SVG vật phẩm riêng.
 - `prisma/`: schema, migration, seed và PostgreSQL cục bộ.
 
-Mã cũ đã ở trạng thái bị xóa trước khi bắt đầu; thay đổi đó được giữ nguyên. Chưa commit hoặc push.
+Mã cũ đã ở trạng thái bị xóa trước khi bắt đầu; thay đổi đó được giữ nguyên trong commit chuyển sang Next.js. Lịch sử Git được chia theo module để dễ xem xét và bảo trì.

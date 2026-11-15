@@ -1,0 +1,73 @@
+{
+  "desktop": {
+    "url": "http://localhost:3000/vi",
+    "title": "NhaiKanji — Học tiếng Nhật mỗi ngày",
+    "h1": "Luyện tiếng Nhật với chép chính tả và shadowing",
+    "width": 1440,
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Luyện tiếng Nhật với chép chính tả và shadowing",
+        "x": 224,
+        "y": 220.34375,
+        "w": 480,
+        "h": 157.3125
+      },
+      {
+        "text": "Cách hoạt động",
+        "x": 224,
+        "y": 809,
+        "w": 992,
+        "h": 48
+      },
+      {
+        "text": "Trải nghiệm học tiếng Nhật thông minh",
+        "x": 224,
+        "y": 2009,
+        "w": 992,
+        "h": 48
+      },
+      {
+        "text": "Học tiếng Nhật theo cách của bạn",
+        "x": 224,
+        "y": 3289,
+        "w": 992,
+        "h": 48
+      },
+      {
+        "text": "Một hành trình, mọi trình độ",
+        "x": 224,
+        "y": 4569,
+        "w": 992,
+        "h": 48
+      },
+      {
+        "text": "Câu hỏi thường gặp",
+        "x": 224,
+        "y": 5023,
+        "w": 300,
+        "h": 48
+      },
+      {
+        "text": "Bắt đầu hành trình tiếng Nhật của bạn",
+        "x": 168,
+        "y": 5700,
+        "w": 1104,
+        "h": 36
+      }
+    ],
+    "brokenImages": []
+  },
+  "dark": {
+    "body": "rgb(25, 25, 25)",
+    "heading": "rgb(245, 245, 245)"
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "oversized": []
+  },
+  "menu": true,
+  "errors": []
+}

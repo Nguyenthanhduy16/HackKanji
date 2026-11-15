@@ -1,0 +1,50 @@
+{
+  "finding": "Routine account identity refresh unmounted active lessons",
+  "initialReview": "P1 confirmed",
+  "reproducedOnPreviousProduction": true,
+  "fixed": true,
+  "changes": [
+    "Focus and visibility probes preserve mounted app children",
+    "Failed probes preserve initialized local work",
+    "Verified account changes still remount the keyed account subtree",
+    "Manual writes continue to revalidate session ownership"
+  ],
+  "harness": {
+    "passed": true,
+    "mode": "manual-private-backup",
+    "database": "127.0.0.1:5434/nhaikanji_account_test",
+    "checks": [
+      "unauthenticated read/write rejected and response not cached",
+      "real database session round-trip and account privacy",
+      "origin, owner race, stale version, malformed and oversized payloads rejected",
+      "browser restores on a second device and saves manually",
+      "same-account focus and visibility checks preserve mounted drafts",
+      "failed identity refresh preserves offline draft and recovers",
+      "browser conflict requires explicit choice and network failure never confirms save",
+      "browser explicit demo import stays local until a save",
+      "boundary remount retains account isolation and original anonymous data",
+      "browser logout returns original anonymous data",
+      "expired database session rejected",
+      "unconfigured auth hides cloud controls and leaves demo data unchanged"
+    ],
+    "count": 12,
+    "authoritativeXpUnchanged": true,
+    "externalOAuthOrEmail": false
+  },
+  "production": {
+    "passed": true,
+    "checks": [
+      "Settings renders configured signed-out controls",
+      "Real Settings restores a private database snapshot",
+      "Save from Settings is read back in PostgreSQL",
+      "Locale navigation retains scoped account data",
+      "Actual dictation input and unsaved notes survive delayed same-account focus",
+      "Actual recording survives successful and failed background account checks",
+      "Player notes do not leak across authenticated accounts",
+      "Logout restores anonymous state in the full app",
+      "Integrated Settings remains responsive and has no page errors"
+    ],
+    "errors": [],
+    "externalOAuthOrEmail": false
+  }
+}

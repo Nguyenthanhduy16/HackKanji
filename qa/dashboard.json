@@ -1,0 +1,124 @@
+{
+  "desktop": {
+    "title": "NhaiKanji — Học tiếng Nhật mỗi ngày",
+    "h1": "Chào mừng trở lại",
+    "sidebar": 256,
+    "header": 64,
+    "headings": [
+      {
+        "text": "Chào mừng trở lại",
+        "x": 272,
+        "y": 88,
+        "w": 1152,
+        "h": 36
+      },
+      {
+        "text": "Ôn tập nhanh",
+        "x": 289,
+        "y": 407,
+        "w": 1118,
+        "h": 24
+      },
+      {
+        "text": "Bài học nổi bật hôm nay",
+        "x": 272,
+        "y": 538,
+        "w": 212.15625,
+        "h": 28
+      },
+      {
+        "text": "90 ngày gần nhất",
+        "x": 297,
+        "y": 857.125,
+        "w": 1102,
+        "h": 26
+      },
+      {
+        "text": "Mốc thưởng",
+        "x": 297,
+        "y": 1267.125,
+        "w": 514,
+        "h": 26
+      },
+      {
+        "text": "Bảng xếp hạng",
+        "x": 885,
+        "y": 1274.125,
+        "w": 157.296875,
+        "h": 26
+      }
+    ],
+    "overflow": false
+  },
+  "collapsed": true,
+  "dictionary": true,
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "overflowElements": [
+      {
+        "tag": "ARTICLE",
+        "cls": "group w-[260px] min-w-0 shrink-0 snap-start overflow-hidden rounded-2xl border border-border bg-card transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_24px_var(--shadow-light)] motion-reduce:transform-none",
+        "right": 552
+      },
+      {
+        "tag": "A",
+        "cls": "relative block aspect-video overflow-hidden focus-visible:outline-primary",
+        "right": 551
+      },
+      {
+        "tag": "IMG",
+        "cls": "h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.025] motion-reduce:transform-none",
+        "right": 551
+      },
+      {
+        "tag": "SPAN",
+        "cls": "absolute left-2.5 top-2.5 flex items-center gap-1 rounded-md bg-foreground/75 px-2 py-1 text-[10px] font-medium text-background",
+        "right": 397.875
+      },
+      {
+        "tag": "SPAN",
+        "cls": "absolute right-2.5 top-2.5 rounded-md bg-card",
+        "right": 541
+      },
+      {
+        "tag": "SPAN",
+        "cls": "inline-flex shrink-0 rounded-md border px-2 py-0.5 text-[11px] font-bold",
+        "right": 541
+      },
+      {
+        "tag": "SPAN",
+        "cls": "absolute bottom-2.5 right-2.5 rounded-md bg-foreground/75 px-1.5 py-0.5 font-mono text-[11px] text-background",
+        "right": 541
+      },
+      {
+        "tag": "SPAN",
+        "cls": "absolute inset-0 flex items-center justify-center bg-foreground/0 opacity-0 transition-opacity group-hover:bg-foreground/10 group-hover:opacity-100",
+        "right": 551
+      },
+      {
+        "tag": "SPAN",
+        "cls": "flex h-11 w-11 items-center justify-center rounded-full bg-card/90 text-primary",
+        "right": 444
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "right": 432
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "right": 429.5
+      },
+      {
+        "tag": "DIV",
+        "cls": "px-3.5",
+        "right": 551
+      }
+    ]
+  },
+  "sheet": true,
+  "errors": []
+}

@@ -1,0 +1,68 @@
+{
+  "fakeBrowser": [
+    {
+      "name": "dictation: explicit fake iframe, no autoplay, seek, rate, volume, pause, replay, loop",
+      "passed": true
+    },
+    {
+      "name": "shadowing: auto-advance updates range before playback",
+      "passed": true
+    },
+    {
+      "name": "iframe error selects and plays original local MP3",
+      "passed": true
+    },
+    {
+      "name": "AUDIO retains native playback and loads no YouTube script",
+      "passed": true
+    },
+    {
+      "name": "blocked real API script falls back to playable local audio",
+      "passed": true
+    }
+  ],
+  "realPublicAPI": {
+    "noAutoplay": true,
+    "ready": true,
+    "states": [
+      -1,
+      3,
+      -1,
+      3,
+      1,
+      2
+    ],
+    "errors": [],
+    "ended": 1,
+    "position": 2,
+    "time": 12,
+    "playerState": 2,
+    "iframe": "https://www.youtube.com/embed/M7lc1UVf-VE?origin=http%3A%2F%2Flocalhost%3A3000&enablejsapi=1&autoplay=0&rel=0&playsinline=1&controls=0&disablekb=1&fs=0&widgetid=1&forigin=http%3A%2F%2Flocalhost%3A3000%2F__youtube-real&aoriginsup=1&vf=6",
+    "clipPauseVerified": true,
+    "replayPauseVerified": true,
+    "network": [
+      {
+        "url": "https://www.youtube.com/iframe_api",
+        "status": 200
+      },
+      {
+        "url": "https://www.youtube.com/s/player/fad7e4e9/www-widgetapi.vflset/www-widgetapi.js",
+        "status": 200
+      },
+      {
+        "url": "https://www.youtube.com/embed/M7lc1UVf-VE?origin=http%3A%2F%2Flocalhost%3A3000&enablejsapi=1&autoplay=0&rel=0&playsinline=1&controls=0&disablekb=1&fs=0&widgetid=1&forigin=http%3A%2F%2Flocalhost%3A3000%2F__youtube-real&aoriginsup=1&vf=6",
+        "status": 200
+      }
+    ],
+    "pageErrors": [],
+    "document": {
+      "scripts": [
+        "https://www.youtube.com/s/player/fad7e4e9/www-widgetapi.vflset/www-widgetapi.js",
+        "https://www.youtube.com/iframe_api"
+      ],
+      "iframe": "https://www.youtube.com/embed/M7lc1UVf-VE?origin=http%3A%2F%2Flocalhost%3A3000&enablejsapi=1&autoplay=0&rel=0&playsinline=1&controls=0&disablekb=1&fs=0&widgetid=1&forigin=http%3A%2F%2Flocalhost%3A3000%2F__youtube-real&aoriginsup=1&vf=6",
+      "apiLoaded": true
+    }
+  },
+  "errors": []
+}
