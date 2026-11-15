@@ -152,3 +152,12 @@
 @keyframes shake { 25%,75% {transform:translateX(-3px)} 50% {transform:translateX(3px)} }
 @keyframes waveform { from {transform:scaleY(.3)} to {transform:scaleY(1)} }
 @media (prefers-reduced-motion:reduce) { *,*::before,*::after {animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important;} }
+
+/* JLPT past papers (src/features/study/past-papers.tsx) */
+.pp-slot { display:inline-block; width:3.2em; margin:0 3px; border-bottom:1.5px solid currentColor; vertical-align:baseline; }
+.pp-star { color:rgb(var(--primary)); font-weight:700; text-align:center; }
+.pp-box { display:inline-block; min-width:2.2em; margin:0 2px; padding:0 4px; border:1.5px solid currentColor; font-family:var(--font-sans,inherit); font-size:13px; font-weight:700; line-height:1.5; text-align:center; text-indent:0; }
+.pp-passage p { margin:0 0 .6em; text-indent:1em; }
+.pp-passage p.note { text-indent:0; font-size:13.5px; color:rgb(var(--muted-foreground)); margin:0 0 .2em; }
+.pp-passage p.label { text-indent:0; font-weight:700; color:rgb(var(--primary)); margin:.6em 0 .2em; }
+.jp u, .pp-passage u { text-decoration-thickness:1.5px; text-underline-offset:4px; }

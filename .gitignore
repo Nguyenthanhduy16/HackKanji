@@ -25,3 +25,6 @@ qa/lighthouse-home-*.json
 qa/npm-audit-full.json
 /qa-audit.json
 .hermes-tmp.*
+
+# JLPT past-paper content is generated locally (copyrighted exam material, large audio)
+public/jlpt/

@@ -36,6 +36,7 @@ Dừng dev server trước khi build/start cùng thư mục `.next`. Không ch�
 - Từ vựng: tạo/sửa bộ thẻ, thêm/sửa/xóa từ, lật thẻ, bốn mức đánh giá và lịch SM-2; hàng ôn tập chung với ngữ pháp.
 - Thư viện ngữ pháp theo JLPT, lọc/tìm kiếm, ví dụ, ghi chú, lưu ôn tập.
 - 5 đề luyện tập ngắn, đồng hồ đếm ngược, navigator, khôi phục bài chưa nộp, tự nộp và chấm điểm/lịch sử thực.
+- Đề thi JLPT các năm (N2): làm theo phần 文字・語彙/文法/読解/聴解 hoặc cả bài, player nghe, ảnh đề từng câu nghe, luyện tùy chỉnh theo dạng bài/năm/từ khóa, câu sai và thống kê. Nội dung đề không nằm trong repo; tạo bằng `scripts/jlpt/n2build.py`, xem [docs/JLPT-PAST-PAPERS.md](docs/JLPT-PAST-PAPERS.md).
 - 10 trò chơi với cơ chế gõ từ, nối nghĩa, đoán kana, ghép câu và chọn đáp án, lưu điểm và chơi lại.
 - Shop/kho đồ/trang bị, bảng xếp hạng mẫu, cộng đồng cục bộ, hồ sơ, nhiệm vụ, ghi chú, từ cá nhân, góp ý và cài đặt.
 - Prisma/PostgreSQL, Auth.js Google/email theo cấu hình, các API bảo vệ bằng session và giao dịch phần thưởng/mua hàng có chống xử lý lặp.
@@ -51,7 +52,7 @@ Dừng dev server trước khi build/start cùng thư mục `.next`. Không ch�
 - Mặc định dữ liệu nằm trong trình duyệt. Khi Auth.js được cấu hình, Settings cho phép lưu/khôi phục bản sao riêng theo tài khoản. Đây là thao tác thủ công, không tự đồng bộ; XP/vật phẩm phía client không ghi vào bảng phần thưởng hay xếp hạng server. Ghi chú/bình luận riêng của player và bản ghi âm chưa nằm trong snapshot. Xóa dữ liệu site sẽ xóa dữ liệu chưa sao lưu trên thiết bị.
 - Bộ 30 bài mẫu dùng audio được biên soạn riêng. Player đã hỗ trợ nguồn YouTube nhưng chưa có bài video được cấp phép trong bộ seed; chẩn đoán dùng video mẫu chính thức của YouTube chỉ để kiểm thử, không đưa vào bài tiếng Nhật.
 - Ghi âm cần quyền micro do trình duyệt hỏi. Kiểm thử tự động dùng thiết bị âm thanh giả của Chromium, không truy cập micro thật. Chưa có đánh giá phát âm tự động.
-- Các đề là bài mẫu 5 câu, không phải đề thi JLPT đầy đủ/chính thức. Trò chơi là bản 2D trong trình duyệt; không có multiplayer hay game 3D tương đương nguyên bản.
+- Các đề mẫu là bài 5 câu, không phải đề thi JLPT đầy đủ/chính thức. Phần đề các năm chỉ có mã; dữ liệu đề (có bản quyền) được tạo cục bộ vào `public/jlpt/` (gitignored). Trò chơi là bản 2D trong trình duyệt; không có multiplayer hay game 3D tương đương nguyên bản.
 - `vi` đầy đủ; `en`, `ja` có scaffold và bản dịch nhiều phần, một số nội dung landing/giải thích vẫn dùng ngôn ngữ dự phòng.
 - Google OAuth và SMTP cần credential do chủ dự án cấu hình; chưa đăng nhập Google thật hoặc gửi email. Không có tài khoản demo dùng để vượt xác thực máy chủ.
 - Chưa deploy công khai. Nội dung xếp hạng/cộng đồng được ghi rõ là mẫu.
