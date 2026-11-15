@@ -1,0 +1,425 @@
+{
+  "startedAt": "2026-11-15T12:06:41.093Z",
+  "baseURL": "http://localhost:3000",
+  "browser": "156.0.8078.79",
+  "checks": [
+    {
+      "name": "hub layouts and locale messages",
+      "passed": true
+    },
+    {
+      "name": "vocabulary CRUD and all four review grades",
+      "passed": true
+    },
+    {
+      "name": "grammar add review notes and schedule",
+      "passed": true
+    },
+    {
+      "name": "exam scores resume history and timeout",
+      "passed": true
+    },
+    {
+      "name": "game word-shot",
+      "passed": true
+    },
+    {
+      "name": "game word-rain",
+      "passed": true
+    },
+    {
+      "name": "game spelling-bee",
+      "passed": true
+    },
+    {
+      "name": "game fruit-throw",
+      "passed": true
+    },
+    {
+      "name": "game cloud-runner",
+      "passed": true
+    },
+    {
+      "name": "game bridge-builder",
+      "passed": true
+    },
+    {
+      "name": "game word-match",
+      "passed": true
+    },
+    {
+      "name": "game meteor",
+      "passed": true
+    },
+    {
+      "name": "game word-guess",
+      "passed": true
+    },
+    {
+      "name": "game bubble-pop",
+      "passed": true
+    }
+  ],
+  "layouts": [
+    {
+      "route": "vocabulary",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "dark": false
+    },
+    {
+      "route": "grammar",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "dark": false
+    },
+    {
+      "route": "review",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "dark": false
+    },
+    {
+      "route": "exams",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "dark": false
+    },
+    {
+      "route": "games",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "dark": false
+    },
+    {
+      "route": "vocabulary",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "grammar",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "review",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "exams",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "games",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "en/vocabulary",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "en/grammar/desu",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "en/review",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "en/exams/n5-practice",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "en/games/word-shot",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "ja/vocabulary",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "ja/grammar/desu",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "ja/review",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "ja/exams/n5-practice",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "ja/games/word-shot",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "personal-deck",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "grammar/beku",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": false
+    },
+    {
+      "route": "games/word-shot/active",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/word-shot/results",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/word-rain/active",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/word-rain/results",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/spelling-bee/active",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/spelling-bee/results",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/fruit-throw/active",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/fruit-throw/results",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/cloud-runner/active",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/cloud-runner/results",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/bridge-builder/active",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/bridge-builder/results",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/word-match/active",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/word-match/results",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/meteor/active",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/meteor/results",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/word-guess/active",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/word-guess/results",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/bubble-pop/active",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    },
+    {
+      "route": "games/bubble-pop/results",
+      "width": 390,
+      "scrollWidth": 390,
+      "dark": true
+    }
+  ],
+  "games": [
+    {
+      "gameId": "word-shot",
+      "score": 900,
+      "correct": 7,
+      "total": 8,
+      "durationSeconds": 0,
+      "id": "57c4ad52-0f61-449f-9097-26a8114c9abe",
+      "completedAt": 1794744420860
+    },
+    {
+      "gameId": "word-rain",
+      "score": 1050,
+      "correct": 8,
+      "total": 8,
+      "durationSeconds": 0,
+      "id": "d419a089-ad84-4665-acb4-bff59b4b68fb",
+      "completedAt": 1794744422044
+    },
+    {
+      "gameId": "spelling-bee",
+      "score": 1050,
+      "correct": 8,
+      "total": 8,
+      "durationSeconds": 1,
+      "id": "99a5ce5a-23d3-4409-bfdf-3a119ef0be71",
+      "completedAt": 1794744423543
+    },
+    {
+      "gameId": "fruit-throw",
+      "score": 900,
+      "correct": 7,
+      "total": 8,
+      "durationSeconds": 0,
+      "id": "971c0350-1c90-4f21-bf35-222e330008ff",
+      "completedAt": 1794744425026
+    },
+    {
+      "gameId": "cloud-runner",
+      "score": 1050,
+      "correct": 8,
+      "total": 8,
+      "durationSeconds": 1,
+      "id": "d1018113-2f35-4621-9700-c8a2577a8cf2",
+      "completedAt": 1794744426610
+    },
+    {
+      "gameId": "bridge-builder",
+      "score": 600,
+      "correct": 5,
+      "total": 5,
+      "durationSeconds": 1,
+      "id": "c5497274-63a4-4d5f-abd0-b60f15b1e993",
+      "completedAt": 1794744428577
+    },
+    {
+      "gameId": "word-match",
+      "score": 460,
+      "correct": 4,
+      "total": 4,
+      "durationSeconds": 0,
+      "id": "8f79dbad-5ce2-4613-bd65-644489163573",
+      "completedAt": 1794744429879
+    },
+    {
+      "gameId": "meteor",
+      "score": 1050,
+      "correct": 8,
+      "total": 8,
+      "durationSeconds": 1,
+      "id": "e1daf597-6d57-4a88-b1c1-53349fc17207",
+      "completedAt": 1794744431632
+    },
+    {
+      "gameId": "word-guess",
+      "score": 100,
+      "correct": 1,
+      "total": 1,
+      "durationSeconds": 0,
+      "id": "4529e9fc-83f4-44db-b678-66a926a281f9",
+      "completedAt": 1794744432613
+    },
+    {
+      "gameId": "bubble-pop",
+      "score": 1050,
+      "correct": 8,
+      "total": 8,
+      "durationSeconds": 1,
+      "id": "36af15e8-a6d4-4532-b03f-17cbae5fd2b9",
+      "completedAt": 1794744434980
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failures": [],
+  "limitations": [
+    "Headless speech synthesis sound quality is not verified; listening hint and answer evaluation are exercised."
+  ],
+  "completedAt": "2026-11-15T12:07:15.552Z",
+  "summary": {
+    "passed": 14,
+    "failed": 0,
+    "gamesCompleted": 10,
+    "gamesExpected": 10,
+    "layouts": 42,
+    "consoleErrors": 0,
+    "pageErrors": 0
+  }
+}
