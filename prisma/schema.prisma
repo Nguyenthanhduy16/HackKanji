@@ -1,0 +1,560 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum JlptLevel {
+  N5
+  N4
+  N3
+  N2
+  N1
+}
+
+enum LessonSource {
+  AUDIO
+  YOUTUBE
+}
+
+enum Audience {
+  BEGINNER
+  EXPERIENCED
+}
+
+enum StudyMode {
+  DICTATION
+  SHADOWING
+}
+
+enum LearningStatus {
+  NOT_STARTED
+  LEARNING
+  REVIEWING
+  MASTERED
+  COMPLETED
+}
+
+enum MilestoneType {
+  STREAK
+  LEVEL
+}
+
+enum ShopItemType {
+  FRAME
+  WALLPAPER
+  FREEZE
+}
+
+enum Rarity {
+  COMMON
+  RARE
+  EPIC
+}
+
+model User {
+  id                  String    @id @default(cuid())
+  email               String?   @unique
+  emailVerified       DateTime?
+  name                String?
+  image               String?
+  avatarUrl           String?
+  locale              String    @default("vi")
+  timezone            String    @default("Asia/Ho_Chi_Minh")
+  level               Int       @default(1)
+  xp                  Int       @default(0)
+  dango               Int       @default(50)
+  isPremium           Boolean   @default(false)
+  currentStreak       Int       @default(0)
+  longestStreak       Int       @default(0)
+  lastCheckInAt       DateTime?
+  lastStudyDate       String?   @db.VarChar(10)
+  freezeCards         Int       @default(0)
+  equippedFrameId     String?
+  equippedWallpaperId String?
+  isPublic            Boolean   @default(true)
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
+
+  equippedFrame     ShopItem? @relation("EquippedFrame", fields: [equippedFrameId], references: [id], onDelete: SetNull)
+  equippedWallpaper ShopItem? @relation("EquippedWallpaper", fields: [equippedWallpaperId], references: [id], onDelete: SetNull)
+  accounts          Account[]
+  sessions          Session[]
+  attempts          Attempt[]
+  progress          Progress[]
+  studyDays         StudyDay[]
+  studyEvents       StudyEvent[]
+  missions          UserMission[]
+  milestones        UserMilestone[]
+  inventory         Inventory[]
+  purchases         Purchase[]
+  decks             Deck[]
+  reviews           Review[]
+  grammarProgress   GrammarProgress[]
+  examAttempts      ExamAttempt[]
+  posts             Post[]
+  comments          Comment[]
+  reactions         Reaction[]
+  notes             Note[]
+  vocabulary        VocabularyEntry[]
+  feedback          Feedback[]
+  progressSnapshot  ProgressSnapshot?
+
+  @@index([isPublic, xp])
+}
+
+// A private client backup; never read by reward or leaderboard services.
+model ProgressSnapshot {
+  userId    String   @id
+  version   Int      @default(1)
+  data      Json
+  updatedAt DateTime @updatedAt
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// Auth.js Prisma adapter fields; provider credentials never enter public API responses.
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Category {
+  id       String   @id @default(cuid())
+  nameJa   String
+  nameVi   String
+  slug     String   @unique
+  order    Int      @default(0)
+  audience Audience @default(BEGINNER)
+  lessons  Lesson[]
+}
+
+model Lesson {
+  id           String       @id @default(cuid())
+  title        String
+  titleJa      String
+  slug         String       @unique
+  jlptLevel    JlptLevel
+  source       LessonSource @default(AUDIO)
+  mediaUrl     String?
+  youtubeId    String?
+  startSec     Float        @default(0)
+  endSec       Float?
+  durationSec  Int
+  thumbnailUrl String?
+  playCount    Int          @default(0)
+  categoryId   String
+  copyright    String?
+  published    Boolean      @default(true)
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+  category     Category     @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  sentences    Sentence[]
+  attempts     Attempt[]
+  progress     Progress[]
+  studyEvents  StudyEvent[]
+
+  @@index([categoryId, jlptLevel])
+  @@index([published])
+}
+
+model Sentence {
+  id            String  @id @default(cuid())
+  lessonId      String
+  index         Int
+  textJa        String
+  furigana      String
+  translationVi String
+  startMs       Int
+  endMs         Int
+  audioUrl      String?
+  lesson        Lesson  @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  words         Word[]
+
+  @@unique([lessonId, index])
+}
+
+model Word {
+  id         String   @id @default(cuid())
+  sentenceId String
+  index      Int
+  surface    String
+  reading    String
+  kanaLen    Int
+  meaningVi  String
+  sentence   Sentence @relation(fields: [sentenceId], references: [id], onDelete: Cascade)
+
+  @@unique([sentenceId, index])
+}
+
+model Attempt {
+  id            String    @id @default(cuid())
+  userId        String
+  lessonId      String
+  requestId     String
+  mode          StudyMode
+  accuracy      Float
+  revealedWords Int       @default(0)
+  durationSec   Int
+  completedAt   DateTime  @default(now())
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson        Lesson    @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, requestId])
+  @@index([userId, completedAt])
+}
+
+model Progress {
+  id                String         @id @default(cuid())
+  userId            String
+  lessonId          String
+  mode              StudyMode
+  status            LearningStatus @default(NOT_STARTED)
+  lastSentenceIndex Int            @default(0)
+  updatedAt         DateTime       @updatedAt
+  user              User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson            Lesson         @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, lessonId, mode])
+}
+
+model StudyDay {
+  id         String  @id @default(cuid())
+  userId     String
+  // ISO calendar day in the user's stored timezone, not a UTC instant.
+  date       String  @db.VarChar(10)
+  minutes    Int     @default(0)
+  seconds    Int     @default(0)
+  xp         Int     @default(0)
+  lessons    Int     @default(0)
+  checkedIn  Boolean @default(false)
+  usedFreeze Boolean @default(false)
+  user       User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, date])
+  @@index([date, xp])
+}
+
+// Natural-key reward receipt: a lesson/sentence can award XP only once per mode.
+model StudyEvent {
+  id        String    @id @default(cuid())
+  userId    String
+  lessonId  String
+  key       String
+  xp        Int
+  createdAt DateTime  @default(now())
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson    Lesson    @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, key])
+  @@index([userId, createdAt])
+}
+
+model Mission {
+  id          String        @id @default(cuid())
+  key         String        @unique
+  title       String
+  target      Int
+  rewardXp    Int
+  rewardDango Int
+  users       UserMission[]
+}
+
+model UserMission {
+  id        String    @id @default(cuid())
+  userId    String
+  missionId String
+  date      String    @db.VarChar(10)
+  progress  Int       @default(0)
+  claimedAt DateTime?
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  mission   Mission   @relation(fields: [missionId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, missionId, date])
+}
+
+model Milestone {
+  id            String          @id @default(cuid())
+  type          MilestoneType
+  threshold     Int
+  rewardDango   Int
+  rewardFreeze  Int             @default(0)
+  rewardItemIds String[]        @default([])
+  users         UserMilestone[]
+
+  @@unique([type, threshold])
+}
+
+model UserMilestone {
+  id          String    @id @default(cuid())
+  userId      String
+  milestoneId String
+  claimedAt   DateTime  @default(now())
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  milestone   Milestone @relation(fields: [milestoneId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, milestoneId])
+}
+
+model ShopItem {
+  id              String       @id @default(cuid())
+  name            String
+  type            ShopItemType
+  rarity          Rarity       @default(COMMON)
+  price           Int
+  imageUrl        String?
+  active          Boolean      @default(true)
+  inventory       Inventory[]
+  purchases       Purchase[]
+  frameUsers      User[]       @relation("EquippedFrame")
+  wallpaperUsers  User[]       @relation("EquippedWallpaper")
+}
+
+model Inventory {
+  id         String   @id @default(cuid())
+  userId     String
+  itemId     String
+  quantity   Int      @default(1)
+  acquiredAt DateTime @default(now())
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  item       ShopItem @relation(fields: [itemId], references: [id], onDelete: Restrict)
+
+  @@unique([userId, itemId])
+}
+
+model Purchase {
+  id         String   @id @default(cuid())
+  userId     String
+  itemId     String
+  requestId  String
+  price      Int
+  createdAt  DateTime @default(now())
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  item       ShopItem @relation(fields: [itemId], references: [id], onDelete: Restrict)
+
+  @@unique([userId, requestId])
+  @@index([userId, createdAt])
+}
+
+model Deck {
+  id          String   @id @default(cuid())
+  userId      String
+  name        String
+  description String   @default("")
+  createdAt   DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  cards       Card[]
+
+  @@index([userId])
+}
+
+model Card {
+  id          String   @id @default(cuid())
+  deckId      String
+  front       String
+  back        String
+  reading     String   @default("")
+  ease        Float    @default(2.5)
+  interval    Int      @default(0)
+  dueAt       DateTime @default(now())
+  repetitions Int      @default(0)
+  createdAt   DateTime @default(now())
+  deck        Deck     @relation(fields: [deckId], references: [id], onDelete: Cascade)
+  reviews     Review[]
+
+  @@index([deckId, dueAt])
+}
+
+model Review {
+  id          String   @id @default(cuid())
+  userId      String
+  cardId      String
+  quality     Int
+  ease        Float
+  interval    Int
+  repetitions Int
+  dueAt       DateTime
+  reviewedAt  DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  card        Card     @relation(fields: [cardId], references: [id], onDelete: Cascade)
+
+  @@index([userId, reviewedAt])
+}
+
+model GrammarPoint {
+  id            String            @id @default(cuid())
+  jlptLevel     JlptLevel
+  pattern       String
+  reading       String
+  explanationVi String
+  examples      Json
+  tags          String[]          @default([])
+  progress      GrammarProgress[]
+
+  @@index([jlptLevel])
+}
+
+model GrammarProgress {
+  id             String         @id @default(cuid())
+  userId         String
+  grammarPointId String
+  status         LearningStatus @default(LEARNING)
+  dueAt          DateTime       @default(now())
+  user           User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  grammarPoint   GrammarPoint   @relation(fields: [grammarPointId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, grammarPointId])
+}
+
+model Exam {
+  id          String        @id @default(cuid())
+  title       String
+  jlptLevel   JlptLevel
+  durationSec Int
+  passPercent Int           @default(60)
+  questions   Question[]
+  attempts    ExamAttempt[]
+}
+
+model Question {
+  id            String @id @default(cuid())
+  examId        String
+  index         Int
+  section       String
+  prompt        String
+  options       String[]
+  correctIndex  Int
+  explanationVi String
+  exam          Exam   @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@unique([examId, index])
+}
+
+model ExamAttempt {
+  id          String   @id @default(cuid())
+  userId      String
+  examId      String
+  answers     Json
+  score       Float
+  durationSec Int
+  completedAt DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  exam        Exam     @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@index([userId, completedAt])
+}
+
+model Topic {
+  id    String @id @default(cuid())
+  slug  String @unique
+  title String
+  posts Post[]
+}
+
+model Post {
+  id           String     @id @default(cuid())
+  userId       String
+  topicId      String
+  title        String
+  body         String
+  editorsPick  Boolean    @default(false)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  topic        Topic      @relation(fields: [topicId], references: [id], onDelete: Restrict)
+  comments     Comment[]
+  reactions    Reaction[]
+
+  @@index([topicId, createdAt])
+  @@index([userId])
+}
+
+model Comment {
+  id        String   @id @default(cuid())
+  userId    String
+  postId    String
+  body      String
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  post      Post     @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  @@index([postId, createdAt])
+}
+
+model Reaction {
+  id     String @id @default(cuid())
+  userId String
+  postId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  post   Post   @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, postId])
+}
+
+model Note {
+  id        String   @id @default(cuid())
+  userId    String
+  title     String
+  body      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, updatedAt])
+}
+
+model VocabularyEntry {
+  id        String   @id @default(cuid())
+  userId    String
+  surface   String
+  reading   String
+  meaningVi String
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, surface, reading])
+}
+
+model Feedback {
+  id        String   @id @default(cuid())
+  userId    String
+  message   String
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+}
